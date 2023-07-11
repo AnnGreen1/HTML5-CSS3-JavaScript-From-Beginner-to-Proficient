@@ -1,0 +1,25 @@
+﻿<!doctype html>
+<html> 
+<head>
+<meta charset="utf-8">
+<title></title>
+<style type="text/css">
+/* 在图片容器上添加内阴影，生效*/
+.box-shadow {
+    box-shadow: inset 0 0 20px red;
+    display:inline-block;
+}
+.box-shadow img {
+    position: relative;
+    z-index: -1;
+}
+img {
+    height:300px;
+}
+</style>
+</head>
+
+<body>
+<div class="box-shadow"><img src="images/2.jpg" /></div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<title></title>
+<style type="text/css">
+.fileInput {
+    position: relative;
+    width: 66px;
+    height: 66px;
+    background: url("images/code.png");
+    margin: 12px auto;
+    /box-shadow: 1px 1px 3px #666;
+    border-radius: 12px;
+}
+.upfile {
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer;
+}
+.fileInput p {
+    font-size:12px;
+    position: absolute;
+    text-align: center;
+    bottom: -32px;
+    left: 8px;
+    color: #888;
+    /*text-shadow: 2px 1px #00C04F;*/
+}
+</style>
+</head>
+<body>
+<article class="show">
+    <h1>提交文件</h1>
+    <form action="" method="post" enctype="multipart/form-data" name="up_form"  class="fileInput">
+        <input name="up_file" type="file" id="up_file"  class="upfile" value="浏览文件" />
+        <p>选择文件</p>
+    </form>
+</article>
+<script>
+window.onload = function(){
+	var up_file = document.getElementById("up_file");
+	up_file.onchange = function(){
+		document.up_form.submit();
+	}
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ajax投票</title>
+<script src="poll.js"></script>
+</head>
+
+<body>
+<div id="poll">
+    <h2>你喜欢PHP+AJAX吗？</h2>
+    <form>
+        喜 &nbsp; &nbsp;欢:
+        <input type="radio" name="vote" value="0" onclick="getVote(this.value)">
+        <br />
+        不喜欢:
+        <input type="radio" name="vote" value="1" onclick="getVote(this.value)">
+    </form>
+</div>
+</body>
+</html>

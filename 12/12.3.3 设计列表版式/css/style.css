@@ -1,0 +1,258 @@
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DIV {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+DD {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+OL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H1 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H6 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+PRE {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+FIELDSET {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+INPUT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+TEXTAREA {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+BLOCKQUOTE {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+TH {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+TD {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+TABLE {
+	BORDER-SPACING: 0; BORDER-COLLAPSE: collapse
+}
+FIELDSET {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+IFRAME {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+IMG {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+ADDRESS {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+CAPTION {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+CITE {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+CODE {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+DFN {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+EM {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+STRONG {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+TH {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+VAR {
+	FONT-STYLE: normal; FONT-WEIGHT: normal
+}
+OL {
+	LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none
+}
+UL {
+	LIST-STYLE-TYPE: none; LIST-STYLE-IMAGE: none
+}
+CAPTION {
+	TEXT-ALIGN: left
+}
+TH {
+	TEXT-ALIGN: left
+}
+H1 {
+	COLOR: #000; FONT-SIZE: 100%
+}
+H2 {
+	COLOR: #000; FONT-SIZE: 100%
+}
+H3 {
+	COLOR: #000; FONT-SIZE: 100%
+}
+H4 {
+	COLOR: #000; FONT-SIZE: 100%
+}
+H5 {
+	COLOR: #000; FONT-SIZE: 100%
+}
+H6 {
+	COLOR: #000; FONT-SIZE: 100%
+}
+BODY {
+	FONT-FAMILY: 宋体, Arial, Verdana; FONT-SIZE: 12px
+}
+BUTTON {
+	FONT-FAMILY: 宋体, Arial, Verdana; FONT-SIZE: 12px
+}
+INPUT {
+	FONT-FAMILY: 宋体, Arial, Verdana; FONT-SIZE: 12px
+}
+SELECT {
+	FONT-FAMILY: 宋体, Arial, Verdana; FONT-SIZE: 12px
+}
+TEXTAREA {
+	FONT-FAMILY: 宋体, Arial, Verdana; FONT-SIZE: 12px
+}
+.ClearBoth {
+	LINE-HEIGHT: 1px; HEIGHT: 1px; CLEAR: both; FONT-SIZE: 1px
+}
+.clearfix:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; CONTENT: "."
+}
+.clearfix {
+	DISPLAY: inline-block
+}
+.clearfix {
+	DISPLAY: block
+}
+BODY {
+	BACKGROUND: #dbdbdb; COLOR: #666666; OVERFLOW: hidden
+}
+A {
+	COLOR: #666; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff5500
+}
+#adv {
+	Z-INDEX: 999; POSITION: absolute; WIDTH: 400px; DISPLAY: none; HEIGHT: 60px; TOP: 40px; RIGHT: 10px; pointer-events: auto
+}
+.frame_main {
+	POSITION: relative; MARGIN: 0px auto; WIDTH: 744px; FONT-FAMILY: Microsoft YaHei; OVERFLOW: hidden
+}
+.logo {
+	MARGIN: 0px 0px 0px 13px; WIDTH: 258px; FLOAT: left; _margin-left: 4px
+}
+.userhead {
+	WIDTH: 33px; DISPLAY: inline-block; BACKGROUND: url(http://web.kugou.com/images/headerbg.png) no-repeat; HEIGHT: 33px
+}
+.userhead IMG {
+	WIDTH: 29px; HEIGHT: 29px
+}
+.userbar {
+	MARGIN: 6px 20px 0px 0px; FLOAT: right; _margin-right: 8px
+}
+.userinfo {
+	POSITION: relative; TOP: -10px; LEFT: 5px
+}
+.flashbox {
+	MARGIN: 10px 0px 0px; HEIGHT: 480px
+}
+.login_reg {
+	POSITION: relative; TOP: 10px; LEFT: 5px
+}
+.logo A {
+	WIDTH: 83px; DISPLAY: inline-block; BACKGROUND: url(http://web.kugou.com/images/download.png) no-repeat; HEIGHT: 22px; CURSOR: pointer; _background: none
+}
+.logo A:hover {
+	BACKGROUND: url(../../0106/images/downloadHover.png) no-repeat; _background: none
+}
+.con {
+	Z-INDEX: 100; POSITION: relative; MARGIN: 0px auto; WIDTH: 745px; OVERFLOW: hidden
+}
+.con2 {
+	POSITION: relative; MARGIN: 0px; WIDTH: 745px; OVERFLOW: hidden
+}
+.spe360 {
+	Z-INDEX: 100; POSITION: relative
+}
+.inputWrap {
+	POSITION: absolute; WIDTH: 220px; TOP: 35px; LEFT: 318px
+}
+.inputWrap2 {
+	POSITION: absolute; TOP: 160px; LEFT: 122px
+}
+.inputWrap3 {
+	POSITION: absolute; TOP: 100px; LEFT: 400px
+}
+.table {
+	POSITION: relative
+}
+.shareBox {
+	Z-INDEX: 2147483647; POSITION: absolute; WIDTH: 448px; BACKGROUND: #fff; HEIGHT: 256px; TOP: 150px; LEFT: 150px
+}
+.shareBox H3 {
+	POSITION: relative; PADDING-BOTTOM: 0px; LINE-HEIGHT: 30px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; BACKGROUND: #31a8e0; HEIGHT: 30px; COLOR: #fff; FONT-SIZE: 12px; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+.shareBox H3 A {
+	POSITION: absolute; COLOR: #fff; FONT-SIZE: 18px; TOP: 1px; RIGHT: 10px
+}
+.shadow {
+	Z-INDEX: 988888999; POSITION: absolute; FILTER: alpha(opacity=50); WIDTH: 100%; BACKGROUND: #000; HEIGHT: 100%; TOP: 0px; LEFT: 0px; opacity: 0.5
+}
+.shareBox .textarea {
+	MARGIN: 20px auto; WIDTH: 410px; HEIGHT: 154px
+}
+.shareBox .textarea TEXTAREA {
+	BORDER-BOTTOM: #bdbdbd 1px solid; BORDER-LEFT: #bdbdbd 1px solid; WIDTH: 408px; HEIGHT: 152px; BORDER-TOP: #bdbdbd 1px solid; BORDER-RIGHT: #bdbdbd 1px solid; resize: none
+}
+.shareBox .tool {
+	MARGIN: 8px 0px 0px; OVERFLOW: hidden
+}
+.shareBox .tool SPAN {
+	WIDTH: 250px; FLOAT: left; COLOR: #bfbfbf
+}
+.shareBox .tool SPAN LABEL {
+	COLOR: #c00
+}
+.shareBox .tool A {
+	TEXT-ALIGN: center; LINE-HEIGHT: 25px; WIDTH: 67px; BACKGROUND: #31a8e0; FLOAT: right; HEIGHT: 25px; COLOR: #fff; FONT-SIZE: 14px
+}

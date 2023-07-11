@@ -1,0 +1,29 @@
+﻿<!doctype html>
+<html>
+<head> 
+<meta charset="utf-8">
+<title></title>
+<style type="text/css">
+/*给图片容器上添加伪元素或伪类，不用为img设置负值的z-index值了。有内阴影*/
+img {
+    position: relative;
+    background-color: #FC3;
+    padding: 5px;
+}
+img:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    box-shadow: inset 0 0 40px #f00;
+}
+img { height: 300px; }
+</style>
+</head>
+
+<body>
+<img src="images/2.jpg" />
+</body>
+</html>

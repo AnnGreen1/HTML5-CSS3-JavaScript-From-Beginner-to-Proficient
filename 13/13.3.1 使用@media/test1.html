@@ -1,0 +1,38 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<style type="text/css">
+
+@media screen and (max-width : 600px) {
+    /*匹配宽度小于等于600px的屏幕设备*/
+}
+
+@media not print {
+    /*匹配除了打印机以外的所有设备*/
+}
+
+@media not all and (max-width : 500px) {}
+/*等价于*/
+@media not (all and (max-width : 500px)) {}
+/*而不是*/
+@media (not all) and (max-width : 500px) {}
+
+@media screen , (min-width : 800px) {
+    /*匹配屏幕或者宽度大于等于800px的设备*/
+}
+
+@media all {
+    /*可以过滤不支持media的浏览器*/
+}
+
+
+
+</style>
+</head>
+<body>
+
+
+</body>
+</html> 

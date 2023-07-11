@@ -1,0 +1,32 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<style type="text/css">
+div { 
+    height: 160px;
+    background: hsla(93,96%,62%,1.00);
+    border: solid 27px red;
+    /*设置边框图像*/
+    -webkit-border-image-source: url(images/border1.png); /*兼容webkit引擎*/
+    -moz-border-image-source: url(images/border1.png); /*兼容gecko引擎*/
+    -o-border-image-source: url(images/border1.png); /*兼容presto引擎*/
+    border-image-source: url(images/border1.png); /*兼容标准用法*/
+    -webkit-border-image-repeat: round;
+    -moz-border-image-repeat: round;
+    -o-border-image-repeat: round;
+    border-image-repeat: round;
+    -webkit-border-image-slice: 10;
+    -moz-border-image-slice: 10;
+    -o-border-image-slice: 10;    
+    border-image-slice: 10;
+}
+</style>
+</head>
+<body>
+<div>border-image-source: url(images/border1.png);<br>
+    border-image-repeat:round;<br>
+    border-image-slice: 10;</div>
+</body>
+</html>

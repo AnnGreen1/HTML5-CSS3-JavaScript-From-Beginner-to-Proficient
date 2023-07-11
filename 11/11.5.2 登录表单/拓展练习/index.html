@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta charset="UTF-8" />
+<title>用户登录——掌上1号店</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<link rel="apple-touch-icon-precomposed" href="https://passport.yhd.com/front-passport/passport/images/screenLogo.png" />
+<link href="css/common.css" type="text/css" rel="stylesheet" />
+<link href="css/main.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<div class="signIn"> 
+    <!-- s 专有头部 -->
+    <header>
+        <button onclick="doClose();return fasle;">
+        <div class="icon_close"></div>
+        </button>
+        用户登录 </header>
+    <!-- e 专有头部 --> 
+    <!-- s 登录主体 -->
+    <section class="signIn_main signIn_bg">
+        <form method="post">
+            <label class="cssBorder-box">帐号：
+                <input id="un" name="credentials.username" type="text" placeholder="手机号/邮箱/用户名" />
+            </label>
+            <label class="cssBorder-box">密码：
+                <input id="pwd" name="credentials.password" type="password" />
+            </label>
+            <p class="cssBox signIn_btn">
+                <input id="check_agreement" class="" type="checkbox" onclick="autoLogin()" />
+                <span>记住密码</span>
+                <button id="login_button" type="button" onclick="double_submit();return false;">登录</button>
+            </p>
+            <p class="cssBox signIn_more"> <a class="box_flex_0" href="http://m.yhd.com/mw/register?osType=20">免费注册&gt;</a> <a class="box_flex_0" href="javascript:void(0);">忘记密码？</a> </p>
+        </form>
+    </section>
+</div>
+</body>
+</html>

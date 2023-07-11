@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>会员登录_同程旅游无线网</title>
+<!-- meta信息，可维护 -->
+<meta charset="UTF-8" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta content="telephone=no" name="format-detection" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+<body>
+<!-- 公共页头  -->
+<header class="header">
+    <h1 class="">会员登录</h1>
+    <div class="left-head"> <a id="goBack" href="javascript:history.go(-1);" class="left-btn tc_back head-btn "><span class="inset_shadow"><span class="head-return"></span></span></a> </div>
+    <div class="right-head"> <a href="javascript:void(0)" class="right-btn head-btn"><span class="inset_shadow menuClick"><span class="head-home"></span></span></a> </div>
+</header>
+<!-- 页面内容块 -->
+<div class="content" page="login" style="padding: 10px;">
+    <form action="http://m.ly.com/membership/login.html" class="listForm" method="post">
+        <article class="circle_b bottom_c" id="payInfo">
+            <section class="secure" id="selectBank" style="position: relative;"> <span class="username"></span> <span class="fRight">
+                <input class="opa" name="LoginName" id="name" placeholder="请输入您的手机号" type="text" value="" />
+                </span> </section>
+            <section class="dash_b" style="position: relative;"> <span class="password"></span> <span class="fRight">
+                <input class="opa" name="Passwd" id="pass" placeholder="密码（6-18位数字和字母组合）" type="password" />
+                </span> </section>
+        </article>
+        <div class="col_div">
+            <button type="submit" class="btn btn-blue" title="会员登录">登录</button>
+        </div>
+        <div class="log_ele clear"> 
+            <!-- refid相关为景区百度合作用，是景区找无线添加的 --> 
+            <a href="http://m.ly.com/membership/register.html">免费注册</a> <a href="http://m.ly.com/membership/forgetpasswd.html">忘记密码</a> </div>
+    </form>
+</div>
+<footer>
+    <div class="footer_link"> <a class="link_1" href="#">登录</a> <a class="link_1" href="#">注册</a> <a class="link_3" href="http://m.ly.com/home/index.html" onclick="">回首页</a> </div>
+    <div class="footer_link c_right"> &copy;2014同程旅游 </div>
+</footer>
+</body>
+</html>

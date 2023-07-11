@@ -1,0 +1,117 @@
+.nav {
+	height: 46px;
+	background: -webkit-gradient(linear,0% 0,0% 100%,from(#F9F3E6),to(#F1E8D6));
+	border-top: 1px solid #FBF8F0;
+	border-bottom: 1px solid #E9E5D7;
+}
+
+
+.pr {
+	position: relative;
+}
+
+.nav .goback {
+	position: absolute;
+	left: 15px;
+	width: 30px;
+	height: 46px;
+	background: url(../images/arrow_header.png) no-repeat center;
+	background-size: 25px 20px;
+	text-indent: -100px;
+	overflow: hidden;
+}
+
+.wb {
+	word-wrap: break-word;
+	word-break: break-all;
+	text-overflow: ellipsis;
+}
+
+.nav .nav-title {
+	line-height: 46px;
+	width: 30%;
+	font-size: 16px;
+	margin: 0 auto;
+	text-align: center;
+	color: #766d62;
+	height: 46px;
+	overflow: hidden;
+}
+
+.nav .home {
+	position: absolute;
+	top: 12px;	
+	right: 60px;
+	width: 19px;
+	height: 22px;
+	background: url(../images/icon-home.png) no-repeat 0 0;
+	background-size: contain;
+}
+
+.nav-sub .home {
+	right: 15px;
+}
+
+.w {
+	width: 320px!important;
+	margin: 0 auto;
+}
+
+.layout {
+	margin: 10px;
+	-webkit-box-sizing: border-box;
+}
+
+.wbox {
+	display: -webkit-box;
+    display: box;
+}
+
+.jhy1 li {
+	margin: 0 10px 10px 0;
+	background: #fff;
+	width: 50%;
+}
+
+.jhy1 li:nth-child(2n) {
+	margin-right: 0;
+}
+
+.jhy1 li a {
+	display: block;
+}
+
+.jhy1 li:last-child {
+	margin-right: 0;
+}
+
+.jhy1 li img {
+	width: 145px;
+	height: 145px;
+}
+
+.jhy1 li p {
+	height: 24px;
+	line-height: 1.2;
+	overflow: hidden;
+	color: #7A7A7A;
+	background: #F5F5F5;
+	text-indent: 2px;
+	padding: 5px;
+}
+
+.jhy1 li .snPrice {
+	display: block;
+	font-size: 14px;
+	padding-left: 5px;
+	background: #F5F5F5;
+}
+
+.snPrice {
+	color: #d00;
+}
+
+.snPrice em {
+	padding-left: 2px;
+}
+

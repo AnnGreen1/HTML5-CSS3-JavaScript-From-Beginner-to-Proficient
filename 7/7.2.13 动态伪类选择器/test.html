@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title></title>
+<style>
+body { background:#fcc;} /* 浅色网页背景 */
+label {
+    display:inline-block;
+    margin-right:6px;
+    width:3em;
+    text-align:right;
+}
+input[type="text"],  input[type="password"] {
+   padding: 4px;
+   width:10em;
+   border:solid 1px #f99;
+}
+input[type="submit"] {/* 默认样式 */
+    margin-left:4.2em;
+    border:solid 1px; 						/* 定义1像素实线边框 */
+    padding: 0.5em 3em; 					/* 增加补白，显示更大方 */
+    color: #444; 							/* 深灰色字体 */
+    background: #f99; 						/* 深红色背景 */
+    border-color: #fff #aaab9c #aaab9c #fff; 	/* 分配边框颜色 */
+    zoom:1; 								/* 解决IE浏览器无法显示问题*/
+}    
+input[type="submit"]:hover {/* 鼠标经过时样式 */
+    color: #800000; 						/* 字体颜色 */
+    background: transparent; 				/* 清除背景色 */
+    border-color: #aaab9c #fff #fff #aaab9c; 	/* 分配边框颜色 */
+}
+
+</style>
+</head>
+<body>
+<h2>用户登录</h2>
+<form id="login" action="#" method="post">
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email"/><br><br>
+    <label for="password">密码</label>
+    <input type="password" id="password" name="password"/><br><br>
+    <input type="submit"  name="commit" value="登 录"/>
+</form>
+
+
+</body>
+</html>

@@ -1,0 +1,218 @@
+.header {
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	background-color: #3cafdc
+}
+
+.header h1 {
+	width: 190px;
+	display: block;
+	margin: 0 auto;
+	font-family: microsoft yahei;
+	font-size: 18px;
+	color: #fff;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-weight: 700
+}
+
+.left-head {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 40px
+}
+
+.inset_shadow {
+	display: block;
+	overflow: hidden
+}
+
+.head-return {
+	width: 11px;
+	height: 17px;
+	margin: 5px 15px 0;
+	overflow: hidden;
+	display: inline-block;
+	background: url(../images/icon_back.png) no-repeat;
+	background-size: 11px 17px
+}
+
+.head-btn {
+	height: 28px;
+	line-height: 28px;
+	display: block;
+	margin-top: 8px
+}
+
+.right-head {
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 40px;
+	padding-right: 5px
+}
+
+.head-home {
+	width: 21px;
+	height: 20px;
+	margin: 4px 10px 0;
+	overflow: hidden;
+	display: inline-block;
+	background: url('../images/header-nav.png') no-repeat scroll -4px 2px transparent;
+}
+
+.content {
+	background-color: #f0f0f0;
+	min-height: 180px
+}
+
+#payInfo {
+	border: 1px solid #ccc;
+	font-family: microsoft yahei;
+	font-size: 15px;
+}
+
+article.bottom_c section {
+	padding-left: 10px;
+	padding-right: 10px;
+	height: auto;
+	background-color: #fff;
+	line-height: 49px;
+}
+
+article.bottom_c input[type="text"], article.bottom_c input[type="password"] {
+	width: 100%;
+	text-align: left;
+	outline: none;
+	box-shadow: none;
+	border: none;
+	color: #333;
+	background-color: #fff;
+	height: 20px;
+	margin-left: -5px;
+	font-family: microsoft yahei;
+}
+
+#selectBank {
+	border-bottom: 1px solid #ccc;
+}
+
+section span {
+	float: left;
+	padding-left: 5px
+}
+
+input::-webkit-input-placeholder {
+	color: #ccc;
+}
+
+section span.fRight {
+	float: none;
+	padding-left: 12px;
+	position: relative;
+	overflow: hidden;
+	display: block;
+	height: 44px;
+	line-height: 44px;
+}
+
+.username {
+	background: url("../images/ico-user.png") no-repeat;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background-size: cover;
+	margin: 6px -5px 0;
+}
+
+.password {
+	background: url("../images/ico-password.png") no-repeat;
+	display: inline-block;
+	width: 25px;
+	height: 26px !important;
+	height: 25px;
+	background-size: cover;
+	margin: 6px -5px 0;
+}
+
+.btn-blue {
+	margin-top: 10px;
+	background: #fe932b;
+	border: none;
+	border-radius: 3px;
+	font-family: microsoft yahei;
+	font-size: 18px;
+}
+
+.btn {
+	width: 100%;
+	height: 40px;
+	display: block;
+	line-height: 40px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.log_ele {
+	padding: 0px 10px;
+	font-size: 15px;
+}
+
+.log_ele a:last-child {
+	float: right
+}
+
+footer {
+	background-color: #3cafdc;
+	padding: 7px 0
+}
+
+footer .footer_link {
+	text-align: center;
+	font-size: 14px;
+	line-height: 2em;
+	padding-bottom: 5px
+}
+
+footer .footer_link a {
+	font-size: 12px;
+	color: #fff
+}
+
+footer .footer_link .link_1 {
+	font-size: 12px;
+	margin: 0 8px;
+	color: #fff;
+	line-height: 14px
+} 
+
+footer .footer_link .link_2 {
+	margin: 0 9px;
+	color: #fff;
+	line-height: 15px
+}
+
+footer .footer_link .link_3 {
+	margin: 0 7px;
+	color: #fff;
+	line-height: 15px;
+	font-size: 12px
+}
+
+footer .c_right {
+	color: #A5DDF6;
+	line-height: 11px;
+	margin: 0;
+	font-size: 12px
+}
+
+footer .c_right span,footer .c_right span a {
+	color: #fff
+}
+
+

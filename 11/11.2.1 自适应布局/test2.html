@@ -1,0 +1,164 @@
+﻿<!doctype html>
+<html lang="en">
+<head> 
+<meta charset="UTF-8">
+<title>表格样式</title>
+<style type="text/css">
+* {
+    margin: 0;
+    padding: 0;
+}
+body { font: 14px/1.4 Georgia, Serif; }
+/* 
+通用样式，适用于台式机/笔记本电脑
+*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+/* 斑马条纹 */
+tr:nth-of-type(odd) { background: #eee; }
+th {
+    background: #333;
+    color: white;
+    font-weight: bold;
+}
+td, th {
+    padding: 6px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+/* 
+	在小屏设备中响应式样式
+	*/
+@media  only screen and (max-width: 760px),  (min-device-width: 768px) and (max-device-width: 1024px) {
+/* 强制表格不再像表格一样显示 */
+table, thead, tbody, th, td, tr,caption { display: block; }
+/* 隐藏表格标题。不使用display: none;，主要用于辅助功能 */
+thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+tr { border: 1px solid #ccc; }
+td {
+    /* 行为像一个“行” */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+}
+td:before {
+    /* 现在像表格标题 */
+    position: absolute;
+    /* 顶/左值模仿填充 */
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+}
+/*
+标记数据
+*/
+td:nth-of-type(1):before { content: "版本"; }
+td:nth-of-type(2):before { content: "发布时间"; }
+td:nth-of-type(3):before { content: "绑定系统"; }
+
+}
+/* 智能手机（横屏和竖屏） ----------- */
+@media only screen  and (min-device-width : 320px)  and (max-device-width : 480px) {
+body {
+    padding: 0;
+    margin: 0;
+    width: 320px;
+}
+}
+/* iPads（横屏和竖屏）  ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+body { width: 495px; }
+}
+</style>
+</head>
+<body>
+<table>
+    <caption>
+    IE浏览器发展大事记
+    </caption>
+    <thead>
+        <tr>
+            <th>版本</th>
+            <th>发布时间</th>
+            <th>绑定系统</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Internet Explorer 1</td>
+            <td>1995年8月</td>
+            <td>Windows 95 Plus! Pack</td>
+        </tr>
+        <tr>
+            <td>Internet Explorer 2</td>
+            <td>1995年11月</td>
+            <td>Windows和Mac</td>
+        </tr>
+        <tr>
+            <td>Internet Explorer 3</td>
+            <td>1996年8月</td>
+            <td>Windows 95 OSR2</td>
+        </tr>
+        <tr>
+            <td>Internet Explorer 4</td>
+            <td>1997年9月</td>
+            <td>Windows 98</td>
+        </tr>
+        <tr>
+            <td>Internet Explorer 5</td>
+            <td>1999年3月</td>
+            <td>Windows 98 Second Edition</td>
+        </tr>
+        <tr>
+            <td>Internet Explorer 5.5</td>
+            <td>2000年9月</td>
+            <td>Windows Millennium Edition</td>
+        </tr>
+        <tr>
+            <td>Internet Explorer 6</td>
+            <td>2001年10月</td>
+            <td>Windows XP</td>
+        </tr>
+        <tr>
+            <td>Internet Explorer 7</td>
+            <td>2006年下半年</td>
+            <td>Windows Vista</td>
+        </tr>
+        <tr>
+            <td>Internet Explorer 8</td>
+            <td>2009年3 月</td>
+            <td>Windows 7</td>
+        </tr>
+        <tr>
+            <td>Internet Explorer 9</td>
+            <td>2011年3月</td>
+            <td>Windows 7</td>
+        </tr>
+        <tr>
+            <td>Internet Explorer 10</td>
+            <td>2012年</td>
+            <td>Windows 8</td>
+        </tr>
+        <tr>
+            <td>Internet Explorer 11</td>
+            <td>2013年6月</td>
+            <td>Windows 8.1</td>
+        </tr>
+        <tr>
+            <td>Spartan浏览器</td>
+            <td>2015年3月</td>
+            <td>Windows 10</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>

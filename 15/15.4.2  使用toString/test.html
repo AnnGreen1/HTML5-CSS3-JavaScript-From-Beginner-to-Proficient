@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>test</title>
+</head>
+<body>
+<script>
+
+function typeOf(obj){
+    var str = Object.prototype.toString.call(obj);
+    return str.match(/\[object (.*?)\]/)[1].toLowerCase();
+};
+console.log( typeOf({}) );	// "object"
+console.log( typeOf([]) );	// "array"
+console.log( typeOf(0) );	// "number"
+console.log( typeOf(null) );	// "null"
+console.log( typeOf(undefined) );	// "undefined"
+console.log( typeOf(/ /) );	// "regex"
+console.log( typeOf(new Date()) );	// "date"
+
+//在typeOf基础上，扩展方法，专门检测某种类型数据。 
+['Null', 'Undefined', 'Object', 'Array', 'String', 'Number', 'Boolean', 'Function', 'RegExp'].forEach(function (t) {
+    typeOf['is' + t] = function (o) {
+        return typeOf(o) === t.toLowerCase();
+    };
+});
+console.log( typeOf.isObject({}) );	// true
+console.log( typeOf.isNumber(NaN) );	// true
+console.log( typeOf.isRegExp(true) );	// false
+</script>
+
+
+</body>
+</html>

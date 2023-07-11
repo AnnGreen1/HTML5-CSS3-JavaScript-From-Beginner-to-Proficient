@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style type="text/css">
+p {font-size:24px;}
+/* 为不同语言指定引号的表现 */
+:lang(en) > q {quotes:'"' '"';}
+:lang(no) > q {quotes:"«" "»";}
+:lang(ch) > q {quotes:"“" "”";}
+
+/* 在q标签的前后插入引号 */
+q:before {content:open-quote; padding-right:6px;}
+q:after  {content:close-quote; padding-left:6px;}
+</style>
+</head>
+<body>
+
+<p lang="no"><q>HTML5+CSS3+JavaScript</q></p>
+<p lang="en"><q>HTML5+CSS3+JavaScript</q></p>
+<p lang="ch"><q>前端开发</q></p>
+
+
+
+
+</body>
+</html>

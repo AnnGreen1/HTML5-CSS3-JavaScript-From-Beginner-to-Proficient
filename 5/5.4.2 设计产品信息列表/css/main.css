@@ -1,0 +1,46 @@
+﻿.header {
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	background-color: #3cafdc
+}
+ 
+.header-title {
+	color: #FFFFFF;
+	display: block;
+	font-size: 18px;
+	margin: 0 auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 320px;
+}
+
+.left-head {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 40px
+}
+
+.inset_shadow {
+	display: block;
+	overflow: hidden
+}
+
+.header-return {
+	background: url("../images/header-nav.png") no-repeat scroll -44px 0px;
+	display: inline-block;
+	height: 36px;
+	margin: 12px 15px 0px 25px;
+	overflow: hidden;
+	width: 30px;
+}
+
+#content {
+	width: 100%;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<style type="text/css">
+label {
+    display: block;
+    text-transform: capitalize;
+    margin-top: 6px;
+}
+input[type="submit"] {
+    float: left;
+    padding: 6px 50px;
+    margin-top: 12px;
+}
+</style>
+</head>
+
+<body>
+<form method="post" action="" enctype="multipart/form-data">
+    <fieldset>
+        <legend>快速注册</legend>
+        <p class="row">
+            <label for="name">用户名</label>
+            <input type="text" id="name" name="name"   />
+        </p>
+        <p class="row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="name@163.com" />
+        </p>
+        <p class="row">
+            <label for="password">密码</label>
+            <input type="password" id="password" name="password" />
+        </p>
+        <p class="row">
+            <label for="password2">重置密码</label>
+            <input type="password" id="password2" name="password2" />
+        </p>
+    </fieldset>
+    <input type="submit" value="提 交" />
+</form>
+</body>
+</html>

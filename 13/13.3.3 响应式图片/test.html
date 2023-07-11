@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<style>
+/*当屏幕宽度大于641像素时*/
+@media screen and (min-width: 641px) {
+    .changeImg {
+        background-image:url(images/big.jpg);
+        background-repeat: no-repeat;
+        height: 440px;
+    }
+}
+/*当屏幕宽度小于641像素时*/
+@media screen and (max-width: 640px) {
+    .changeImg {
+        background-image:url(images/small.jpg);
+        background-repeat: no-repeat;
+        height: 440px;
+    }
+}
+</style>
+</head>
+<body>
+<div class="changeImg"></div>
+</body>
+</html>

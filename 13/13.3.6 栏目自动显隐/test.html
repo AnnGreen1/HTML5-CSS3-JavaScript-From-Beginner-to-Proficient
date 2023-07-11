@@ -1,0 +1,88 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"> 
+<!-- viewport meta to reset iPhone inital scale -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<!-- css3-mediaqueries.js for IE8 or older -->
+<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<style type="text/css">
+/*默认结构样式*/
+#pagewrap {
+    width: 960px;
+    margin: auto;
+}
+#content {
+    width: 600px;
+    float: left;
+}
+#sidebar {
+    width: 300px;
+    float: right;
+}
+#footer { clear: both; }
+
+/*媒体查询*/
+/* <=980px */
+@media screen and (max-width: 980px) {
+#pagewrap { width: 94%; }
+#content { width: 65%; }
+#sidebar { width: 30%; }
+}
+
+/* <=700px */
+@media screen and (max-width: 700px) {
+#content {
+    width: auto;
+    float: none;
+}
+#sidebar {
+    width: auto;
+    float: none;
+}
+}
+
+/* <=480px */
+@media screen and (max-width: 480px) {
+h1, h2 { font-size: 16px; }
+#sidebar { display: none; }
+}
+</style>
+</head>
+<body>
+<div id="pagewrap">
+    <div id="header">
+        <h1>唐诗赏析</h1>
+    </div>
+    <div id="content">
+        <h1>水调歌头·明月几时有</h1>
+        <h2>苏轼</h2>
+        <p>丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由。</p>
+        <p>明月几时有？把酒问青天。不知天上宫阙，今夕是何年。我欲乘风归去，又恐琼楼玉宇，高处不胜寒。起舞弄清影，何似在人间？</p>
+        <p>转朱阁，低绮户，照无眠。不应有恨，何事长向别时圆？人有悲欢离合，月有阴晴圆缺，此事古难全。但愿人长久，千里共婵娟。</p>
+    </div>
+    <div id="sidebar">
+        <h2>宋词精选</h2>
+        <ul>
+            <li><a href="">卜算子·咏梅</a></li>
+            <li><a href=""> 声声慢·寻寻觅觅</a></li>
+            <li><a href=""> 雨霖铃·寒蝉凄切</a></li>
+            <li><a href="">卜算子·咏梅</a></li>
+            <li><a href="">更多</a></li>
+        </ul>
+    </div>
+    <div id="footer">
+        <h2>词人列表</h2>
+        <ul>
+            <li><a href="">陆游</a></li>
+            <li><a href="">李清照</a></li>
+            <li><a href="">苏轼</a></li>
+            <li><a href="">柳永</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

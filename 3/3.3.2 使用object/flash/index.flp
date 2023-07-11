@@ -1,0 +1,14 @@
+﻿<flash_project name="~33bOOOPICb7" version="1">
+	<project_file path="./~33bOOOPICb7.fla" filetype="fla" profile="" def_file="true"/>
+	<project_file path="./mx/video/FLVPlayback.as" filetype="as"/>
+	<project_file path="./mx/video/UIManager.as" filetype="as"/>
+	<project_file path="./mx/video/VideoPlayer.as" filetype="as"/>
+	<project_file path="./mx/video/INCManager.as" filetype="as"/>
+	<project_file path="./mx/events/EventDispatcher.as" filetype="as"/>
+	<project_file path="./mx/video/VideoError.as" filetype="as"/>
+	<project_file path="./mx/video/NCManager.as" filetype="as"/>
+	<project_file path="./mx/video/SMILManager.as" filetype="as"/>
+	<project_file path="./mx/utils/Delegate.as" filetype="as"/>
+	<project_file path="./mx/video/FPADManager.as" filetype="as"/>
+	<project_file path="./mx/video/CuePointManager.as" filetype="as"/>
+</flash_project>

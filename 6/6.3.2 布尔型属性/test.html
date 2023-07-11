@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<style type="text/css">
+label { }
+input[type="submit"] { }
+</style>
+</head>
+<body>
+<form method="post" action="#" id="choices">
+    <fieldset>
+        <legend>你是通过什么方式了解我们的？</legend>
+        <input type="radio" name="how" value="微信" id="weixin" />
+        <label for="weixin">微信</label>
+        <input type="radio" name="how" value="微博" id="weibo" />
+        <label for="weibo">微博</label>
+        <input type="radio" name="how" value="other" id="other" />
+        <label for="other">其它</label><br><br>
+        <textarea id="other-description" cols="35" rows="5" placeholder="电视，报纸等。 "  disabled="disabled"></textarea><br><br>
+        <input type="submit" value="提 交" class="btn" />
+    </fieldset>
+</form>
+
+<script>
+var choices = document.getElementById('choices'),
+	textarea = document.getElementById('other-description');
+choices.onclick = function(e) {
+	var e = e || window.event,
+		target = e.target || e.srcElement;
+	if (target.getAttribute('type') === 'radio') {
+		if (target.id !== 'other') {
+			textarea.disabled = true;
+		} else {
+			textarea.disabled = false;
+			textarea.focus();
+		}
+	}
+};
+</script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<title>TweenTest</title>
+<meta charset="utf-8">
+<style type="text/css">
+#moveLinear {
+    width: 50px;
+    height: 50px;
+    background: #ccc;
+}
+</style>
+</head>
+
+<body>
+<div id="moveLinear"></div>
+</body>
+<script>
+//将$设置为获取元素对象的函数，留待以后使用。
+$ = function( id ){ return typeof id == "string"?document.getElementById(id):id }
+/* des:tween算法。
+	t: 动画已经执行的时间（实际上是已经执行了多少次/帧数）
+	b: 起始位置
+	c: 终止位置
+	d: 从起始位置到终止位置的经过时间（实际上总共执行多少次/帧数）
+*/
+tween = {
+	linear : function( t, b, c, d){
+		//return t*c/d + b;
+		//一下为测试使用
+		console.log("t="+t);
+		var tt = t;
+		console.log("(t/=d)*t="+(tt/=d)*tt);
+		console.log("tt="+tt);
+		return c*(t/=d)*t + b;
+	},
+	Quad: {
+     //缓入函数：斜率从0到1。
+     easeIn: function(t,b,c,d){
+         return c*(t/=d)*t + b;
+     },
+     //缓出函数：将c系数变为负值使图形翻转，
+     //然后对t减2，使图形向右平移至正确位置
+     easeOut: function(t,b,c,d){
+         return -c *(t/=d)*(t-2) + b;
+     },
+     ///缓入缓出
+    easeInOut: function(t,b,c,d){
+        //判断当前时间是否在总时间的一半以内，
+        //如果是，则执行缓入函数，否则执行缓出函数 
+        if ((t/=d/2) < 1) return c/2*t*t + b;
+        //将总长度设置为一半，并且时间从当前开始递减，
+        //对图像进行垂直向上平移。公式变形过程如下图
+        return -c/2 * ((--t)*(t-2) - 1) + b;
+    }
+}
+
+}
+/* des: 控制元素移动的动画对象
+	moveType : 元素移动的方式，默认为linear 。
+			参数：
+				mvTp = string 移动方式
+	startMove : 移动元素的函数 
+			参数：
+				mvObj = string 被移动的元素的id
+				mvTp = string 移动方式
+*/
+move={
+	//元素移动的方式：默认为linear
+	moveType : function(mvTp){return  mvTp && typeof(mvTp)== "string" && tween[mvTp] ? mvTp: "linear" },
+	//移动元素的函数 
+	//mvObj:string 被移动的元素的id
+	//mvTp:string 移动类型
+	startMove : function( mvObj,mvTp,t,b,c,d ){ 
+		//判断传入参数是否正确，如果t存在那么还是t，否则为t设置默认值，其他的以此类推
+		t ? t : t=0; b ? b : b = 0; c ? c : c =300; d ? d : d = 50; 
+		//判断被移动的元素是否存在相对或者绝对的定位属性，1 的作用仅仅是为了完成语法格式（若没有该属性，则无法移动元素）
+		$(mvObj).style.position =="relative" || $(mvObj).style.position =="absolute" 
+			? 1 : $(mvObj).style.position = "relative";
+		//开始时间戳
+		strT = new Date();
+		//每隔30毫秒重复执行改变元素位置的函数
+		mvTimer = setInterval(function(){
+		//判断动画已经执行的时间（次数/帧数）是否小于总时间，是的话继续执行改变位置的函数，否则的话，清理该interval。
+		//？和：之间的函数是个匿名函数，在匿名函数的后面加上()直接调用该函数，简便写法。
+		//tween[move.moveType(mvTp)]() 先通过对象数组的属性obj["x"]方式访问tween的某个属性对象，然后加上()执行该函数对象。
+			t <= d 
+				? function(){ $(mvObj).style.left = parseInt(tween[move.moveType(mvTp)](t,b,c,d))+"px"; t++;}() 
+				//结束时间戳，并弹出动画总时长
+				: function(){ clearInterval(mvTimer); console.log(new Date() - strT); }()
+			 } ,30 )
+	}
+}
+ 
+move.startMove("moveLinear");
+</script>
+</html>

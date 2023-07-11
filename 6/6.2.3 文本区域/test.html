@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<style type="text/css">
+fieldset {
+    float: left;
+}
+fieldset:nth-child(1) {
+    width: 30%;
+}
+fieldset:nth-child(2) {
+    width: 66%;
+}
+label {
+    display: block;
+    text-transform: capitalize;
+    margin-top: 6px;
+}
+textarea {
+    font: inherit;
+    padding: 2px;
+}
+
+</style>
+</head>
+
+<body>
+<div class="feedback">
+    <h1>反馈表</h1>
+    <div class="content">
+        <form method="post" action="">
+            <fieldset class="base_info">
+                <legend>用户信息</legend>
+                <label for="userName">用户名</label>
+                <input type="text" value="" id="userName" />
+                <label for="email">电子邮件</label>
+                <input type="text" value="" id="email" />
+            </fieldset>
+            <fieldset class="feedback_content">
+                <legend>反馈信息</legend>
+                <label for="msg">具体内容</label>
+                <textarea rows="8" cols="50" id="msg" placeholder="请填写详实的反馈意见。"></textarea>
+                <label for="up_file">附件</label>
+                <input type="file" id="up_file" />
+                <p class="tips">附件仅支持.jpg、.gif、.png图片。</p>                
+            </fieldset>
+            <button type="submit">提交</button>
+            <button type="reset">重置</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

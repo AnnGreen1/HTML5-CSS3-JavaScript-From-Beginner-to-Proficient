@@ -1,0 +1,141 @@
+﻿<!doctype html>
+<html lang="en">
+<head> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<title></title>
+<style type="text/css">
+body { font-family: arial; }
+table {
+    border: 1px solid #ccc;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0 auto;
+}
+table tr {
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+table th, table td {
+    padding: 10px;
+    text-align: center;
+}
+table th {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 600px) {
+    table { border: 0; }
+    table thead { display: none; }
+    table tr {
+        margin-bottom: 10px;
+        display: block;
+        border-bottom: 2px solid #ddd;
+    }
+    table td {
+        display: block;
+        text-align: right;
+        font-size: 13px;
+        border-bottom: 1px dotted #ccc;
+    }
+    table td:last-child { border-bottom: 0; }
+    table td:before {
+        content: attr(data-label);
+        float: left;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
+.note {
+    max-width: 80%;
+    margin: 0 auto;
+}
+</style>
+</head>
+<body>
+<table>
+    <caption>
+    IE浏览器发展大事记
+    </caption>
+    <thead>
+        <tr>
+            <th>版本</th>
+            <th>发布时间</th>
+            <th>绑定系统</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td data-label="版本">Internet Explorer 1</td>
+            <td data-label="发布时间">1995年8月</td>
+            <td data-label="绑定系统">Windows 95 Plus! Pack</td>
+        </tr>
+        <tr>
+            <td data-label="版本">Internet Explorer 2</td>
+            <td data-label="发布时间">1995年11月</td>
+            <td data-label="绑定系统">Windows和Mac</td>
+        </tr>
+        <tr>
+            <td data-label="版本">Internet Explorer 3</td>
+            <td data-label="发布时间">1996年8月</td>
+            <td data-label="绑定系统">Windows 95 OSR2</td>
+        </tr>
+        <tr>
+            <td data-label="版本">Internet Explorer 4</td>
+            <td data-label="发布时间">1997年9月</td>
+            <td data-label="绑定系统">Windows 98</td>
+        </tr>
+        <tr>
+            <td data-label="版本">Internet Explorer 5</td>
+            <td data-label="发布时间">1999年3月</td>
+            <td data-label="绑定系统">Windows 98 Second Edition</td>
+        </tr>
+        <tr>
+            <td data-label="版本">Internet Explorer 5.5</td>
+            <td data-label="发布时间">2000年9月</td>
+            <td data-label="绑定系统">Windows Millennium Edition</td>
+        </tr>
+        <tr>
+            <td data-label="版本">Internet Explorer 6</td>
+            <td data-label="发布时间">2001年10月</td>
+            <td data-label="绑定系统">Windows XP</td>
+        </tr>
+        <tr>
+            <td data-label="版本">Internet Explorer 7</td>
+            <td data-label="发布时间">2006年下半年</td>
+            <td data-label="绑定系统">Windows Vista</td>
+        </tr>
+        <tr>
+            <td data-label="版本">Internet Explorer 8</td>
+            <td data-label="发布时间">2009年3 月</td>
+            <td data-label="绑定系统">Windows 7</td>
+        </tr>
+        <tr>
+            <td data-label="版本">Internet Explorer 9</td>
+            <td data-label="发布时间">2011年3月</td>
+            <td data-label="绑定系统">Windows 7</td>
+        </tr>
+        <tr>
+            <td data-label="版本">Internet Explorer 10</td>
+            <td data-label="发布时间">2012年</td>
+            <td data-label="绑定系统">Windows 8</td>
+        </tr>
+        <tr>
+            <td data-label="版本">Internet Explorer 11</td>
+            <td data-label="发布时间">2013年6月</td>
+            <td data-label="绑定系统">Windows 8.1</td>
+        </tr>
+        <tr>
+            <td data-label="版本">Spartan浏览器</td>
+            <td data-label="发布时间">2015年3月</td>
+            <td data-label="绑定系统">Windows 10</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>

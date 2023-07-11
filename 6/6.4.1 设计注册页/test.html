@@ -1,0 +1,80 @@
+﻿<!doctype html>
+<html>
+<head>
+<style>
+p label {
+    width: 180px; 
+    float: left;
+    text-align: right;
+    padding-right: 10px
+}
+table { margin-left: 80px }
+table td { border-bottom: 1px solid #CCCCCC }
+input.submit { margin-left: 80px }
+input { padding:4px; }
+</style>
+<meta charset="utf-8">
+</head>
+<body>
+<h1>用户注册</h1>
+<form action='#' enctype="application/x-www-form+xml" method="post">
+    <p>
+        <label for='name'>ID（请使用Email注册）</label>
+        <input name='name' required="required" type='email'>
+        </input>
+    </p>
+    <p>
+        <label for='password'>密码</label>
+        <input name='password' required="required" type='password'>
+        </input>
+    </p>
+    <p>
+        <label for='birthday'>出生日期</label>
+        <input type='date' name='birthday'>
+    </p>
+    <p>
+        <label for='gender'>国籍</label>
+        <select name='country' data='countries.xml'>
+        </select>
+    </p>
+    <p>
+        <label for='photo'>个性头像</label>
+        <input type='file' name='photo' accept='image/*'>
+    </p>
+    <table>
+        <tr>
+            <td><button type="add" template="questionId">+</button> 保密问题</td>
+            <td>答案</td>
+            <td></td>
+        </tr>
+        <tr id="questionId" repeat="template" repeat-start="1" repeat-min="1" repeat-max="3">
+            <td><input type="text" name="questions[questionId].q"></td>
+            <td><input type="text" name="questions[questionId].a"></td>
+            <td><button type="remove">删除</button></td>
+        </tr>
+    </table>
+    <p>
+        <input type='submit' value='提交信息' class='submit'>
+    </p>
+</form>
+<script type="text/javascript" src="jquery-1.10.2.js"></script> 
+<script>
+$(function(){
+	$("select[data]").each(function() {
+		var _this = this;
+		$.ajax({
+			type:"GET",
+			url:$(_this).attr("data"),
+			success: function(xml){
+				var opts = xml.getElementsByTagName("option");
+				$(opts).each(function() {
+					$(_this).append('<option value="'+ $(this).val() +'">'+ $(this).text() +'</option>');
+
+                });
+			}
+		});
+    });
+})
+</script>
+</body>
+</html>

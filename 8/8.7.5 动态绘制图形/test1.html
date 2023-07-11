@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<style type="text/css">
+.bubble {
+    width: 200px;
+    height: 50px;
+    background:hsla(93,96%,62%,1);
+    padding: 12px;
+    position: relative;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+.bubble:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index:-1;
+}
+.bubble.bubble-left:before {
+    right: 90%;
+    top: 50%;
+    
+    -webkit-transform: rotate(-25deg);
+    -moz-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+    
+    border-top: 20px  solid transparent;
+    border-right: 80px  solid hsla(93,96%,62%,1);
+    border-bottom: 20px  solid transparent;
+
+}
+.bubble.bubble-right:before {
+    left: 90%;
+    top: 50%;
+    
+    -webkit-transform: rotate(25deg);
+    -moz-transform: rotate(25deg);
+    transform: rotate(25deg);
+    
+    border-top: 20px  solid transparent;
+    border-left: 80px  solid hsla(93,96%,62%,1);
+    border-bottom: 20px  solid transparent;
+}
+.bubble.bubble-top:before {
+    bottom: 80%;
+    left: 50%;
+    
+    -webkit-transform: rotate(25deg);
+    -moz-transform: rotate(25deg);
+    transform: rotate(25deg);
+    
+    border-left: 20px  solid transparent;
+    border-bottom: 80px  solid hsla(93,96%,62%,1);
+    border-right: 20px  solid transparent;
+}
+.bubble.bubble-bottom:before {
+    top: 80%;
+    left: 50%;
+    
+    -webkit-transform: rotate(25deg);
+    -moz-transform: rotate(25deg);
+    transform: rotate(25deg);
+    
+    border-left: 20px  solid transparent;
+    border-top: 80px  solid hsla(93,96%,62%,1);
+    border-right: 20px  solid transparent;
+}
+ 
+div {
+    float:left;
+    margin:50px;
+}
+
+</style>
+</head>
+
+<body>
+<div class="bubble bubble-left">左侧消息提示框<br>class="bubble bubble-left"</div>
+<div class="bubble bubble-right">右侧消息提示框<br>class="bubble bubble-right"</div>
+<div class="bubble bubble-bottom">底部消息提示框<br>class="bubble bubble-bottom"</div>
+<div class="bubble bubble-top">顶部消息提示框<br>class="bubble bubble-top"</div>
+</body>
+</html>

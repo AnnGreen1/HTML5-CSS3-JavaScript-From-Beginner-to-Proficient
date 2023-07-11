@@ -1,0 +1,21 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+</head>
+
+<body>
+<script>
+
+var regex = /^[a-zA-Z]:\\([^\\:*<>|"?\r\n/]+\\)*([^\\:*<>|"?\r\n/]+)?$/;
+console.log(regex.test("F:\\javascript\\regex\\index.html"));// => true
+console.log( regex.test("F:\\javascript\\regex\\") );	// => true
+console.log( regex.test("F:\\javascript") ); 		// => true
+console.log( regex.test("F:\\") ); 		// => true
+
+
+
+</script>
+</body>
+</html>

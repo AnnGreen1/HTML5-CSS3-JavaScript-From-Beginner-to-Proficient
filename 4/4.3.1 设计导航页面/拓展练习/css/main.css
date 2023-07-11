@@ -1,0 +1,131 @@
+header {
+	position: relative;
+	height: 51px;
+	background: -o-linear-gradient(top,#fcd007,#fccb01);
+	background: -webkit-gradient(linear,0 0,0 100%,from(#fcd007),to(#fccb01));
+	background: linear-gradient(to top,#fcd007,#fccb01);
+	-webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+	box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+header h2 {
+	line-height: 49px;
+	font-size: 22px;
+	color: #333;
+	text-align: center
+}
+
+.reHome,.reBack {
+	position: absolute;
+	right: 10px;
+	top: 0;
+	display: block;
+	text-align: center;
+	color: #333;
+	font-size: 18px;
+	height: 100%;
+	line-height: 49px;
+	min-width: 50px;
+	background-size: 2px;
+	background-image: url(../images/01.png);
+	background-repeat: repeat-y;	
+}
+
+.reBack {
+	left: 10px;
+	right: auto;
+	background-position: right top;
+	padding-right: 10px;	
+}
+
+.reHome {
+	background-position: left top;
+	padding-left: 10px
+}
+
+.i {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	vertical-align: middle;
+	background-size: 150px;
+	margin-bottom: .24em;
+	background-image: url(../images/02.png);
+	background-repeat: no-repeat;
+}
+
+.i {
+	background-image: url(../images/03.png)
+}
+
+.iF4 {
+	background-position: 0 -50px
+}
+
+.iF8 {
+	background-position: 0 -75px
+}
+
+.ls .it {
+	border-bottom: 1px dashed #d6d6d6
+}
+
+.ls .it:last-child {
+	border-bottom: 0
+}
+
+.hs {
+	padding: 10px;
+	display: -webkit-box;
+	font-size: 18px
+}
+.hs a {
+	display: inline-block;
+	width: 50px;
+	text-align: center
+}
+
+.hs .h3 {
+	color: #3783c6
+}
+
+.sep{
+	font-size: xx-large;
+	font-weight: 900;
+}
+
+footer.site {
+	text-align: center;
+	padding-bottom: 10px
+}
+
+nav.foo {
+	font-size: 18px;
+	background: -webkit-gradient(linear,0 0,0 100%,from(#333),to(#272627));
+	margin-bottom: 10px
+}
+
+nav.foo a {
+	color: #fff;
+	line-height: 40px;
+	margin: 0 3px
+}
+
+footer.site .func {
+	margin: 0 0 5px
+}
+
+footer.site .func * {
+	font-size: 16px;
+	color: #3783c6;
+	margin: 0 10px
+}
+
+footer.site .func .on {
+	color: #333
+}
+
+footer.site .cop {
+	color: #666;
+	font-size: 12px
+}

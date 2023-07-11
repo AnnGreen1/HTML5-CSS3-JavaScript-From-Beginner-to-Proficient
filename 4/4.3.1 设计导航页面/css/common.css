@@ -1,0 +1,37 @@
+html, body, menu, ul, ol, li, p, div, form, h1, h2, h3, h4, h5, h6, img, a img, input, button, textarea {
+    padding: 0;
+    margin: 0;
+    border: 0
+}
+html, body { overflow-x: hidden }
+body { background: #f1f0ed url("../images/01.jpg") }
+ul, ol, li { list-style: none }
+h1, h2, h3, h4, h5, h6, b, i, em {
+    font-size: 1em;
+    font-weight: normal;
+    font-style: normal
+}
+body, input, button, textarea, select {
+    font-family: Helvetica;
+    font: normal 14px/1.5 "Arial";
+    color: #333;
+    -webkit-text-size-adjust: none
+}
+input, button, textarea, select {
+    line-height: 1.2;
+    outline: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0
+}
+input[type="text"], input[type="password"], input[type="button"], input[type="submit"], button, textarea { -webkit-appearance: none }
+a {
+    text-decoration: none;
+    color: #08c
+}
+img, video { vertical-align: middle }
+
+::-webkit-scrollbar {
+ width: 0
+}
+a { color: #333 }
+b { font-size: 1.2em; }

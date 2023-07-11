@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title></title>
+<style>
+input[type="checkbox"] ~ input[type="submit"] {display:none; }
+input[type="checkbox"] ~ span {display:inline; }
+
+input[type="checkbox"]:checked ~ input[type="submit"] {display:inline; }
+input[type="checkbox"]:checked ~ span {display:none; }
+
+
+</style>
+</head>
+<body>
+<form action="#">
+    <h1>用户协议</h1>
+    <p>协议具体内容</p>
+    <p>......</p>
+    <p><input type="checkbox">同意 <br><br>
+    <input type="submit" value="提交协议" /><span>注意，请认真阅读协议条款，如果同意请勾选上面复选框。</span></p>
+</form>
+
+
+</body>
+</html>

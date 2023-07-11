@@ -1,0 +1,363 @@
+.mbHead .mbTop {
+	height: 35px;
+	background-color: #DC0005;
+	background-size: auto 50px;
+	background-position: 0 -10px;
+	top: 0;
+	width: 100%;
+	z-index: 1200;
+	box-shadow: 0 2px 5px rgba(9,9,9,.3);
+	-webkit-box-shadow: 0 2px 5px rgba(9,9,9,.3)
+}
+
+.mbHead .mbTop_wrap {
+	max-width: 640px;
+	position: relative;
+	margin: 0 auto
+}
+
+.mbHead .mbTop .userLogo {
+	width: 30px;
+	height: 30px;
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 44px
+}
+
+.mbHead .mbTop .mbLogo {
+	width: 119px;
+	height: 19px;
+	display: block;
+	padding: 7px 0 0 8px
+}
+
+.mbHead .mbTop .mbCart {
+	width: 37px;
+	height: 37px;
+	display: block;
+	position: absolute;
+	top: -4px;
+	right: 8px;
+	background: url(../images/cart.png) no-repeat 1px 0;
+	background-size: 37px 37px;
+	color: #fff;
+	text-align: center;
+	padding-top: 5px;
+	font-size: 12px
+}
+
+.modRankSTag {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	-webkit-border-radius: 8px;
+    border-radius: 8px;
+	background: #fff;
+	-webkit-box-shadow: 1px 1px 1px #999;
+	margin-right: 3px
+}
+
+.modRankSTag em {
+	background: #ec1b23;
+	width: 10px;
+	height: 14px;
+	line-height: 14px;
+	display: block;
+	-webkit-border-radius: 7px;
+    border-radius: 7px;
+	margin: 1px 0 0 1px;
+	font-size: 12px;
+	text-align: left;
+	padding: 0 0 0 4px;
+	color: #fff;
+	font-weight: 700;
+	list-style: none
+}
+
+#mbMain {
+	padding: 8px;
+	min-width: 320px;
+	max-width: 640px
+}
+
+@media only screen and (min-device-width:320px) {
+	#mbMain,.mbFoot {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		margin: 0 auto
+	}
+}
+
+.productMod {
+	background: #fff;
+	-webkit-box-shadow: 0 1px 3px #999;
+	padding: 8px;
+	border-radius: 5px
+}
+
+.productMod h3 {
+	height: 30px;
+	line-height: 20px;
+	color: #333;
+	padding: 0 5px;
+	position: relative
+}
+
+.modTop {
+	margin-top: 8px
+}
+
+.modHd {
+	background: #fff
+}
+
+.modMoreTag {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 5px;
+	background: #fff;
+	color: #666;
+	border: 1px solid #bdbdbd;
+	height: 24px;
+	overflow: hidden;
+	-webkit-box-sizing: border-box;
+	-webkit-box-shadow: 0 1px 0 #a8a8a8
+}
+
+.modMoreTag .tL,.modMoreTag .tR {
+	color: #666;
+	display: block;
+	float: left;
+	-webkit-box-sizing: border-box
+}
+
+.modMoreTag .tR {
+	background: -webkit-gradient(linear,0 0,0 100%,from(#f5f5f5),to(#e6e6e6));
+	font-weight: 400;
+	padding: 0 3px 0 8px;
+	border-bottom: 1px solid #fff;
+	border-top: 1px solid #fcfcfc;
+	border-right: 1px solid #f9f9f9;
+	border-left: 1px solid #b7b7b7
+}
+
+.modMoreTag .tR i {
+	display: inline-block;
+	border-width: 4px;
+	border-color: #f1f1f1 #f1f1f1 #f1f1f1 #7c7c7c;
+	border-style: solid;
+	width: 0;
+	height: 0;
+	line-height: 0;
+	margin-left: 5px
+}
+
+.modBd {
+	background: #fff;
+	color: #666
+}
+
+.modBd .modList {
+	width: 100%
+}
+
+.modBd .modList li {
+	float: left;
+	text-align: center;
+	padding: 5px;
+	-webkit-box-sizing: border-box;
+	width: 25%
+}
+
+@media only screen and (min-width:641px) {
+		.modBd .modList li {
+		width: 25%
+	}	
+}
+
+.modBd .modList .productImg {
+	margin-bottom: 5px;
+	position: relative
+}
+
+.modBd .modList .productImg img {
+	background: #e8e8e8 url(../images/loading.png) center center no-repeat;
+	background-size: 130px 130px
+}
+
+.modBd .modList .productImg img {
+	width: 100%;
+	height: auto;
+	border: 0
+}
+
+.modRankBTag {
+	position: absolute;
+	top: -12px;
+	left: -12px;
+	width: 26px;
+	height: 26px;
+	display: block;
+	-webkit-border-radius: 13px;
+    border-radius: 13px;
+	background: #fff;
+	-webkit-box-shadow: 1px 1px 1px #999;
+    box-shadow: 1px 1px 1px #999;
+}
+
+.modRankBTag span {
+	background: #ec1b23;
+	width: 16px;
+	height: 22px;
+	display: block;
+	line-height: 20px;
+	-webkit-border-radius: 11px;
+    border-radius: 11px;
+	margin: 3px 0 0 3px;
+	font-size: 16px;
+	text-align: left;
+	padding: 0 0 0 6px;
+	color: #fff;
+	font-weight: 700
+}
+
+
+.modBd .modList .productName {
+	height: 38px;
+	overflow: hidden
+}
+
+.modBd .modList .productPrice em {
+	list-style: none;
+	color: #ed1b23
+}
+
+.modBd .modTextList {
+	margin-top: 5px;
+	padding: 0 5px;
+	clear: both
+}
+
+.modBd .modTextList li {
+	padding: 8px 0;
+	border-top: 1px solid #e8e8e8;
+	position: relative
+}
+
+.modBd .modTextList li a,.productMod .modBd .modTextList li a:hover {
+	color: #666;
+	text-decoration: none
+}
+
+.modBd .modTextList .modGoodsName {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	display: inline-block
+}
+
+@media screen and (min-width:640px) {
+	.modBd .modTextList .modGoodsName {
+		width: auto
+	}
+}
+
+.modBd .modTextList .modGoodsPrice {
+	color: #ed1b23;
+	display: inline-block;
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	background: #fff
+}
+
+.mbFoot {
+	padding: 8px;
+	padding-top: 0;
+	color: #666;
+	max-width: 640px
+}
+
+.mbFoot a,.mbFoot a:hover {
+	color: #333;
+	text-decoration: none
+}
+
+.mbFoot .mbBotLink {
+	line-height: 18px;
+	background: #fff;
+	fong-size: 0;
+	-webkit-border-radius: 5px;
+    border-radius: 5px;
+	-webkit-box-shadow: 0 1px 3px #999;
+    box-shadow: 0 1px 3px #999;
+	margin-bottom: 8px
+}
+
+.mbFoot .mbBotLink li {
+	width: 30%;
+	float: left;
+	font-size: 12px;
+	padding: 10px 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	text-align: center
+}
+
+.mbFoot .mbBotLink li a {
+	display: block
+}
+
+.mbFoot .mbBotLink li:nth-child(2) {
+	border-left: 1px solid #e8e8e8;
+	border-right: 1px solid #e8e8e8;
+	width: 38%
+}
+
+.mbFoot .mbBotInfo {
+	text-align: center
+}
+
+.mbFoot .mbBotInfo li {
+	height: 35px;
+	line-height: 35px;
+	width: 75%;
+	border-bottom: 1px solid #ccc;
+	margin: 0 auto
+}
+
+.mbFoot .noLogin .loginL {
+	width: 40%;
+	float: left;
+	text-align: right
+}
+
+.mbFoot .noLogin .loginR {
+	width: 40%;
+	float: right;
+	text-align: left
+}
+
+.mbFoot .mbBotInfo nav a {
+	width: 32%;
+	display: inline-block;
+	text-align: center
+}
+
+.mbFoot .mbCopyright {
+	text-align: center;
+	line-height: 18px;
+	margin-top: 8px;
+	font-size: 11px
+}
+
+.clearfix:after,dl:after,ul:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden
+}

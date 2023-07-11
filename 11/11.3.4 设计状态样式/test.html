@@ -1,0 +1,123 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<style>
+form {
+    width: 500px;
+    padding: 6px 12px;
+    margin:auto;
+    background: #f0f0f0;
+    overflow: auto;
+    border: 1px solid #cccccc;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    -moz-box-shadow: 2px 2px 2px #cccccc;      /*边框阴影 */
+    -webkit-box-shadow: 2px 2px 2px #cccccc;
+    box-shadow: 2px 2px 2px #cccccc;
+}
+div { margin-bottom: 5px; }
+h1 {
+    text-align: center;
+    font-size: 28px;
+}
+label {
+    font-family: Arial, Verdana;
+    text-shadow: 2px 2px 2px #ccc;
+    display: block;
+    float: left;
+    font-weight: bold;
+    margin-right: 10px;
+    text-align: right;
+    width: 60px;
+    line-height: 36px;
+    font-size: 15px;
+}
+input[type="text"] {
+    font-family: Arial, Verdana;
+    font-size: 15px;
+    padding: 8px;
+    border: 1px solid #b9bdc1;
+    width: 260px;
+    color: #797979;
+}
+textarea {
+    width: 28em;
+    height: 10em;
+    padding: 8px;
+    border: 1px solid #b9bdc1;
+    background: #fff  url(images/logo.png) no-repeat 90% 90% ;
+    background-size:8em ;
+}
+input[type="submit"] {
+    float: right;
+    margin: 10px 55px 10px 0;
+    font-weight: bold;
+    padding: 8px 24px;
+    cursor: pointer;
+    text-align: center;
+    text-shadow: 0 -1px 1px #64799e;
+    background: #a5b8da;
+    background: linear-gradient(to top, #a5b8da 0%, #7089b3 100%);
+    background: -moz-linear-gradient(top, #a5b8da 0%, #7089b3 100%);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#a5b8da), to(#7089b3));
+    border: 1px solid #5c6f91;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: inset 0 1px 0 0 #aec3e5;     /* 阴影 */
+    -webkit-box-shadow: inset 0 1px 0 0 #aec3e5;
+    box-shadow: inset 0 1px 0 0 #aec3e5;
+}
+
+
+input:focus,textarea:focus {
+    background-color: greenyellow;
+}
+input[type="submit"]:focus {
+    backgroundcolor:#ff8c00;
+} 
+input:checked + label {
+    color: green;
+}
+textarea:disabled {
+    background-color: #ccc;
+    border-color: #999;
+    color: #666;
+}
+input:required, textarea:required {
+    border: 2px solid #000;
+}
+input[type="email"]:invalid {
+    color: red;
+}
+input[type="email"]:valid {
+    color: black;
+}
+
+
+
+</style>
+</head>
+
+<body>
+<form id="myform" method="post" action="">
+    <h1>调查表</h1>
+    <div class="field">
+        <label for="name">姓名</label>
+        <input type="text" name="name" id="name" placeholder="张三">
+    </div>
+    <div class="field">
+        <label for="email">邮箱</label>
+        <input type="text" name="email" id="email" placeholder="zhangsan@163.com">
+    </div>
+    <div class="field">
+        <label for="message">建议</label>
+        <textarea name="message" id="message"></textarea>
+    </div>
+    <input type="submit" name="Submit" value="提 交">
+</form>
+</body>
+</html>

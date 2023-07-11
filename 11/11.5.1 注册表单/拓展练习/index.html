@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>个性化用户注册表单——易购网</title>
+<link rel="stylesheet" type="text/css" href="css/common.css" media="all" />
+</head>
+<body>
+<form action="formdemo.php" method="post">
+    <fieldset id="account">
+        <legend>用户注册</legend>
+        <label for="name">姓名：</label>
+        <input type="text" name="name" required placeholder="姓名" />
+        <label for="email">Email：</label>
+        <input type="email" name="email" required placeholder="email@example.com" />
+        <label for="website">网址：</label>
+        <input type="url" name="website" required placeholder="http://www.example.com" />
+        <label for="number">年龄:</label>
+        <input type="number" name="number" min="1" max="100" step="1" required placeholder="年龄" />
+        <label for="range">工资:</label>
+        <input type="range" name="range" min="0" max="10000" step="100" />
+        <label for="message">其他:</label>
+        <textarea name="message" required ></textarea>
+        <input type="submit" value="提交" />
+    </fieldset>
+</form>
+</body>
+</html>

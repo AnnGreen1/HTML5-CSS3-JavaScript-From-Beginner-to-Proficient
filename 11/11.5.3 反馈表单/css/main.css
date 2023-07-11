@@ -1,0 +1,161 @@
+.qn_main {
+	width: 320px;
+	margin: 0 auto;
+}
+
+.qn_header {
+	height: 42px;
+	background-color: #25a4bb;
+	border-bottom: 1px solid #1b7a8b;
+	position: relative;
+}
+
+.qn_header .back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 42px;
+	height: 42px;
+	cursor: pointer;
+}
+
+.qn_header .back a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+
+.qn_header .back {
+	background: url(../images/header_sprites_4.png) 0 0 no-repeat;
+	background-size: 255px 42px;
+}
+
+.qn_header .title {
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	line-height: 42px;
+}
+
+.qn_header .right {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 42px;
+	height: 42px;
+	line-height: 42px;
+	cursor: pointer;
+	color: #fff;
+}
+
+.qn_header .right.hover {
+	background: #058298;
+}
+
+.qn_header .home {
+	background: url(../images/header_sprites_4.png) -85px 0 no-repeat;
+	background-size: 255px 42px;
+}
+
+.qn_pa10 {
+}
+.qn_pa10 input, .qn_pa10 textarea {
+    padding:2px 4px;
+    border:solid 1px #bbb;
+    width: 97%;
+    
+}
+.qn_lh {
+	line-height: 1.5;
+}
+
+.qn_item {
+	font-size: 16px;
+	line-height: 40px;
+	height: 40px;
+	padding: 0 5px;
+	background: #fff;
+}
+
+.qn_item.hover {
+	background: #e0e0e0;
+	color: #fff;
+}
+
+.qn_item input {
+	height: 30px;
+	width: 95%;
+	border: none;
+	font-size: 16px;
+
+}
+
+.qn_border {
+	border: 1px solid #cacaca;
+}
+
+.qn_fl {
+	float: left;
+}
+
+.qn_ml90 {
+	margin-left: 60px
+}
+
+.qn_ml90 input {
+	display: inline-block;
+   
+}
+
+.qn_captcha {
+	height: 35px;
+	vertical-align: top;
+	width: 105px;
+}
+
+.qn_captcha {
+	margin: 2px 0 0 0
+}
+
+.qn_plr10 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.qn_btn a {
+	display: block;
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	background: -webkit-gradient(linear,0% 0,0% 100%,from(#ffa442),to(#ff801a));
+    background: linear-gradient(to bottom,#ffa442, #ff801a);
+    border-radius:4px;
+    margin-top:6px;
+} 
+
+.qn_btn a:hover {
+	background: -webkit-gradient(linear,0% 0,0% 100%,from(#e86800),to(#ff8400));
+	background: linear-gradient(to bottom, #e86800, #ff8400);    
+}
+
+.qn_btn a:visited {
+	color: #fff;
+}
+
+.qn_footer .copyright {
+	color: #9e9e9e;
+	text-align: center;
+	font-size: 14px;
+	padding: 10px;
+}
+
+.qn_footer .copyright a {
+	color: #9e9e9e;
+	height: 33px;
+}
+
+.qn_ml25 {
+	margin-left: 25px;
+}

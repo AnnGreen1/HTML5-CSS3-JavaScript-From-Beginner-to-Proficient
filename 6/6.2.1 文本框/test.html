@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<style type="text/css">
+fieldset {
+    float: left;
+    width: 40%;
+    height: 380px;
+}
+label {
+    display: block;
+    text-transform: capitalize;
+    margin-top: 6px;
+}
+input[type="submit"]{
+    float:left;
+    padding:6px 50px;
+    margin-top:12px;
+}
+</style>
+</head>
+
+<body>
+<form  action="#">
+    <fieldset>
+        <legend>输入型文本框</legend>
+        <label for="email">email</label>
+        <input   type="email"   name="email"    id="email"    />
+        <label for="url">url</label>
+        <input   type="url"   name="url"  id="url"  />
+        <label for="number">number</label>
+        <input   type="number"   name="number" id="number"  step="3" />
+        <label for="tel">tel</label>
+        <input   type="tel"   name="tel"  id="tel"  />
+        <label for="search">search</label>
+        <input   type="search"   name="search"  id="search"  />
+        <label for="range">range</label>
+        <input   type="range"   name="range" id="range"  value="100" min="0" max="300"  />
+        <label for="color">color</label>
+        <input   type="color"   name="color"  id="color"  />
+    </fieldset>
+    <fieldset>
+        <legend>日期时间型文本框</legend>
+        <label for="time">time</label>
+        <input   type="time"   name="time"  id="time"  />
+        <label for="date">date</label>
+        <input   type="date"   name="date"  id="date"  />
+        <label for="month">month</label>
+        <input   type="month"   name="month"  id="month"  />
+        <label for="week">week</label>
+        <input   type="week"   name="week"  id="week"  />
+        <label for="datetime">datetime</label>
+        <input   type="datetime"   name="datetime"  id="datetime"  />
+        <label for="datetime-local">datetime-local</label>
+        <input   type="datetime-local"   name="datetime-local"  id="datetime-local"  />
+    </fieldset>
+    <input   type="submit"   value="提 交" />
+</form>
+</body>
+</html>

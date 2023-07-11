@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title></title>
+<style>
+/*列表样式*/
+ul {  list-style-type: none; margin: 0; padding: 0; font-size: 14px; }
+ul li { background: url(images/top10-bullet.png) no-repeat 2px 10px; padding-left: 24px; line-height: 30px; }
+li a { text-decoration: none; color:#444; }
+/*结构伪类应用*/
+
+li:first-child { background-position: 2px 10px; }
+li:last-child { background-position: 2px -277px;}
+li:nth-child(2) { background-position: 2px -31px;}
+li:nth-child(3) { background-position: 2px -72px; }
+li:nth-child(4) { background-position: 2px -113px; }
+li:nth-child(5) { background-position: 2px -154px; }
+li:nth-child(6) { background-position: 2px -195px; }
+li:nth-child(7) { background-position: 2px -236px; }
+</style>
+</head>
+<body>
+<ul>
+    <li><a href="#">:first-child：匹配第一个子元素。</a></li>
+    <li><a href="#">:last-child：匹配最后一个子元素。</a></li>
+    <li><a href="#">:nth-child()：按正序匹配特定子元素。</a></li>
+    <li><a href="#">:nth-last-child()：按倒序匹配特定子元素。</a></li>
+    <li><a href="#">:nth-of-type()：在同类型中匹配特定子元素。</a></li>
+    <li><a href="#">:nth-last-of-type()：按倒序在同类型中匹配特定子元素。</a></li>
+    <li><a href="#">:first-of-type：匹配第一个同类型子元素。</a></li>
+    <li><a href="#">:last-of-type：匹配最后一个同类型子元素。</a></li>
+</ul>
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+</body>
+</html>

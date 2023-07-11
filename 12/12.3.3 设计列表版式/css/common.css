@@ -1,0 +1,21 @@
+﻿@charset "utf-8";
+ 
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: 14px/1.5 \u9ED1\u4F53, Microsoft YaHei,\5b8b\4f53, Arial, Verdana;
+	color: #737173;
+	background: #fff;
+}
+
+ul {
+	list-style: none
+}
+
+li:hover, li:active, li {
+	outline: 0 none
+}
+

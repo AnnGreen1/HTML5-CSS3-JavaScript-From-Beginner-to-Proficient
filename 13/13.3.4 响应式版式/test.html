@@ -1,0 +1,126 @@
+﻿<!doctype html>
+<html>
+<head> 
+<meta charset="utf-8">
+<title></title>
+<style type="text/css">
+#container {
+    width: 960px;
+    margin: auto;
+}
+#wrapper {
+    width: 740px;
+    float: left;
+}
+#main {
+    width: 520px;
+    float: right;
+}
+#sub {
+    width: 200px;
+    float: left;
+}
+#sidebar {
+    width: 200px;
+    float: right;
+}
+/* 窗口宽度在999px以上 */
+@media screen and (min-width: 1000px) {
+    /* 3栏显示*/
+    #container { width: 1000px; }
+    #wrapper {
+        width: 780px;
+        float: left;
+    }
+    #main {
+        width: 560px;
+        float: right;
+    }
+    #sub {
+        width: 200px;
+        float: left;
+    }
+    #sidebar {
+        width: 200px;
+        float: right;
+    }
+}
+/* 窗口宽度在639px以上、1000px以下 */
+@media screen and (min-width: 640px) and (max-width: 999px) {
+    /* 2栏显示 */
+    #container { width: 640px; }
+    #wrapper {
+        width: 640px;
+        float: none;
+    }
+    .height { line-height: 300px; }
+    #main {
+        width: 420px;
+        float: right;
+    }
+    #sub {
+        width: 200px;
+        float: left;
+    }
+    #sidebar {
+        width: 100%;
+        float: none;
+    }
+}
+
+/* 窗口宽度在640px以下 */
+@media screen and (max-width: 639px) {
+    /* １栏显示  */
+    #container { width: 100%; }
+    #wrapper {
+        width: 100%;
+        float: none;
+    }
+    #main {
+        width: 100%;
+        float: none;
+    }
+    #sub {
+        width: 100%;
+        float: none;
+    }
+    #sidebar {
+        width: 100%;
+        float: none;
+    }
+}
+</style>
+</head>
+<body>
+<div id="container">
+    <div id="wrapper">
+        <div id="main">
+            <h1>水调歌头·明月几时有</h1>
+            <h2>苏轼</h2>
+            <p>丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由。</p>
+            <p>明月几时有？把酒问青天。不知天上宫阙，今夕是何年。我欲乘风归去，又恐琼楼玉宇，高处不胜寒。起舞弄清影，何似在人间？</p>
+            <p>转朱阁，低绮户，照无眠。不应有恨，何事长向别时圆？人有悲欢离合，月有阴晴圆缺，此事古难全。但愿人长久，千里共婵娟。</p>
+        </div>
+        <div id="sub">
+            <h2>宋词精选</h2>
+            <ul>
+                <li><a href="">卜算子·咏梅</a></li>
+                <li><a href=""> 声声慢·寻寻觅觅</a></li>
+                <li><a href=""> 雨霖铃·寒蝉凄切</a></li>
+                <li><a href="">卜算子·咏梅</a></li>
+                <li><a href="">更多</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="sidebar">
+        <h2>词人列表</h2>
+        <ul>
+            <li><a href="">陆游</a></li>
+            <li><a href="">李清照</a></li>
+            <li><a href="">苏轼</a></li>
+            <li><a href="">柳永</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

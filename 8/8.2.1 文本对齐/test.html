@@ -1,0 +1,57 @@
+﻿<!doctype html>
+<html>
+<head> 
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>垂直对齐</title>
+<style type="text/css">
+body {font-size:48px;}
+p{
+    padding:0;
+    background-image:url(images/dot.jpg), url(images/dot.jpg), url(images/dot.jpg), url(images/dot.jpg),  url(images/dot.jpg);
+    background-repeat:repeat-x, repeat-x, repeat-x, repeat-x, repeat-x;
+    background-position:left 29px, left 41px, left 52px, left 67px, left 80px;
+}
+.baseline {vertical-align:baseline;}
+.sub {vertical-align:sub;}
+.super {vertical-align:super;}
+.top {vertical-align:top;}
+.text-top {vertical-align:text-top;}
+.middle {vertical-align:middle;}
+.bottom {vertical-align:bottom;}
+p>span {position:relative;}
+sub,sup {
+    position:absolute;
+    font-size:15px;
+    color:green;
+    width:60px;
+    text-align:center;
+}
+sup {
+    top:-26px;
+    left:-22px;
+}
+sub {
+    top:62px;
+    left:-18px;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<p>valign:
+<span class="baseline"><img src="images/box.gif" title="baseline" /><sup>baseline</sup></span>
+<span class="sub"><img src="images/box.gif" title="sub" /><sub>sub</sub></span>
+<span class="super"><img src="images/box.gif" title="super" /><sup>super</sup></span>
+<span class="top"><img src="images/box.gif" title="top" /><sub>top</sub></span>
+<span class="text-top"><img src="images/box.gif" title="text-top" /><sup>text-top</sup></span>
+<span class="middle"><img src="images/box.gif" title="middle" /><sub>middle</sub></span>
+<span class="bottom"><img src="images/box.gif" title="bottom" /><sup>bottom</sup></span>
+<span class="text-bottom"><img src="images/box.gif" title="text-bottom" /><sub>text-bottom</sub></span>
+</p>
+
+</body>
+</html> 

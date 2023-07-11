@@ -1,0 +1,159 @@
+.hd {
+    position: relative;
+    overflow: hidden;
+    z-index: 30;
+    height: 49px;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#434343), to(#404040));
+    background-image: linear-gradient(to top, #434343, #404040)
+}
+.hd .h2 {
+    line-height: 49px;
+    font-size: 22px;
+    color: #fff;
+ text-align: center text-align: left;
+}
+.famous { border: 0; }
+.common_block {
+    margin: 10px auto;
+    width: 96%;
+    overflow: hidden;
+}
+.famous li {
+    width: 33.33%;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #d6d6d6;
+    background: #fff;
+}
+.famous li a {
+    display: block;
+    border-right: 1px solid #d6d6d6;
+    height: 100%;
+    padding-left: 46px;
+    position: relative;
+}
+.famous li a::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    margin-top: -8px;
+    left: 15px;
+    background-image: url(../images/websites.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: 16px auto
+}
+.famous li:nth-child(3n) a { border-width: 0 }
+.famous li a.fsohu::before { background-position: 0 0 }
+.famous li a.fsogou::before { background-position: 0 -220px }
+.famous li a.fbaidu::before { background-position: 0 -160px }
+.famous li a.fsina::before { background-position: 0 -100px }
+.famous li a.fqq::before { background-position: 0 -180px }
+.famous li a.f163::before { background-position: 0 -200px }
+.famous li a.fifeng::before { background-position: 0 -20px }
+.famous li a.fvip::before { background-position: 0 -240px }
+.famous li a.ftaobao::before { background-position: 0 -140px }
+.nav-urls {
+    margin: 0 6px 0;
+    -webkit-box-shadow: 0 1px 1px rgba(7,0,2,0.25);
+    box-shadow: 0 1px 1px rgba(7,0,2,0.25);
+    background: #fff
+}
+.urls:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both
+}
+.url {
+    float: left;
+    text-align: center
+}
+.url .btn {
+    display: block;
+    font-size: 14px;
+    line-height: 38px
+}
+.btn {
+    display: inline-block;
+    vertical-align: middle
+}
+.nav-urls .url { width: 20% }
+.nav-urls .url .btn {
+    border: dashed #e3e2e3;
+    border-width: 0 1px 1px 0
+}
+.nav-urls .sort .btn {
+    color: #999;
+    border-left: 0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0)
+}
+.nav-urls .urls .url .btn {
+    border: dashed #e3e2e3;
+    border-width: 0 1px 1px 0
+}
+.nav-urls .urls:last-child .url .btn { border-bottom: 0 }
+.nav-urls .urls .url:last-child .btn { border-right: 0 }
+.nav-urls .urls .url .btn {
+    boder-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #d6d6d6;
+}
+.url .btn, .tab .btn { line-height: 45px; }
+.btn b { display: block }
+.reTop {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 16px
+}
+.btn1 {
+    border: 1px solid #d6d6d6;
+    padding: 2px 12px;
+    border-radius: 3px;
+    color: #666;
+    box-shadow: 0 1px 1px #fff inset;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#f7f7f7), to(#ececec));
+    -webkit-tap-highlight-color: rgba(0,0,0,0)
+}
+.i {
+    background: url("../images/02.png") no-repeat;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-background-size: 200px auto;
+    background-size: 200px auto
+}
+.iF {
+    width: 20px;
+    height: 20px
+}
+.iF1 { background-position: -40px -40px }
+footer.site {
+    text-align: center;
+    padding-bottom: 10px
+}
+nav.foo {
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#434343), to(#404040));
+    background-image: linear-gradient(top, #434343, #404040)
+}
+nav.foo a {
+    color: #fff;
+    line-height: 40px;
+    margin: 0 3px
+}
+footer.site .inf {
+    font-size: 16px;
+    color: #333;
+    margin: 0 0 5px
+}
+footer.site .cop {
+    color: #666;
+    font-size: 11.5px
+}

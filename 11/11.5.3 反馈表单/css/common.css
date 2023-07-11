@@ -1,0 +1,80 @@
+﻿body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: arial;
+}
+
+body {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	background: #f3f3f3;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+fieldset,img {
+	border: 0;
+}
+
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+ol,ul,li {
+	list-style: none;
+}
+
+caption,th {
+	text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+abbr,acronym {
+	border: 0;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+a:active {
+	color: #000;
+}
+ 
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clear {
+	clear: both;
+}
+
+textarea,input {
+	margin: 5px 0;
+	font-size: 14px;
+	display: block;
+	width: 100%
+}
+
+textarea {
+	height: 60px
+}
+
+input {
+	height: 30px
+}

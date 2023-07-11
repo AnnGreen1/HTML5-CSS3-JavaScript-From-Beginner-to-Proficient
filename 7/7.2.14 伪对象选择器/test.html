@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title></title>
+<style>
+p{ font-size:18px; line-height:1.6em;}
+/* 在段落文本前添加动态内容 */
+p:before { content: '路';}
+p:first-letter {/* 段落文本中第一个字符样式 */
+    float:left;							/* 靠左浮动*/
+    font-size:60px; 					/* 特大号字体 */
+    font-weight:bold; 					/* 加粗显示 */
+    margin:26px 6px; 					/* 调整间距 */
+}
+p:first-line {/* 段落文本中第一行字符样式 */
+    color:red;
+    font-size:24px;
+    text-shadow:2px 2px 2px rgba(147,251,64,1); 	/* 浅色文本阴影 */
+}
+
+
+</style>
+</head>
+<body>
+<p>希望本是无所谓有，无所谓无的。这正如地上的路；其实地上本没有路，走的人多了，也便成了路。 </p>
+</body>
+</html>

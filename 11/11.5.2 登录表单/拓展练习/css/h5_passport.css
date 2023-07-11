@@ -1,0 +1,413 @@
+/* SVN.committedRevision=1052730 */
+
+ 
+
+
+
+.box_flex_1 {
+	-moz-box-flex: 1.0;
+	-webkit-box-flex: 1.0;
+	box-flex: 1.0;
+}
+
+
+
+.header_withBackBtn {
+	position: relative;
+	width: 100%;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.header_withBackBtn>button {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 44px;
+	height: 44px;
+	border: none;
+	text-align: center;
+	font-size: 14px;
+}
+
+
+.waring_msg .icon_warning {
+	display: block;
+	width: 23px;
+	height: 17px;
+	background-position: -60px 0;
+}
+
+
+.big_btn {
+	text-align: center;
+	padding: 0 30px;
+}
+
+.big_btn button {
+	margin: 0 auto;
+	width: 100%;
+	height: 40px;
+	border-radius: 2px;
+	border: none;
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+.signIn .signIn_coo {
+	margin-top: 7px;
+	padding-bottom: 20px;
+}
+
+.signIn .signIn_coo>header {
+	margin: 0 auto;
+	width: 250px;
+	height: 25px;
+}
+
+.signIn .signIn_coo .coo_panel {
+	margin: 5px auto;
+	width: 250px;
+}
+
+.signIn .signIn_coo .btn_qq {
+	margin: 0 auto;
+	width: 60px;
+	height: 60px;
+	background-position: 0 -20px;
+	cursor: pointer;
+}
+
+.signIn .signIn_coo .btn_alipay {
+	margin: 0 auto;
+	width: 60px;
+	height: 60px;
+	background-position: -60px -20px;
+	cursor: pointer;
+}
+
+.signIn .signIn_coo .btn_weibo {
+	margin: 0 auto;
+	width: 60px;
+	height: 60px;
+	background-position: -120px -20px;
+	cursor: pointer;
+}
+
+.signIn .signIn_coo .btn_weixin {
+	margin: 0 auto;
+	width: 60px;
+	height: 60px;
+	background-position: -180px -20px;
+	cursor: pointer;
+}
+
+.setPwd {
+	color: #666;
+}
+
+.setPwd>header {
+	background-color: #fe5955;
+	color: #fff;
+}
+
+.setPwd>header>button {
+	background-color: #f2413d;
+	color: #fff;
+}
+
+.setPwd>.setPwd_main {
+	display: block;
+	padding: 16px 10px;
+	height: 300px;
+}
+
+.setPwd>.setPwd_main>label {
+	margin-bottom: 10px;
+	border: 1px solid #e5e5e5;
+}
+
+.setPwd>.setPwd_main>label>div {
+	height: 32px;
+	line-height: 32px;
+}
+
+.setPwd>.setPwd_main>label>div:nth-child(1) {
+	width: 67px;
+	border-right: 1px solid #e5e5e5;
+	text-align: center;
+}
+
+.setPwd>.setPwd_main>label>div:nth-child(2) {
+	padding: 0 10px;
+}
+
+.setPwd>.setPwd_main>label input {
+	width: 100%;
+	height: 32px;
+	border: none;
+	color: #666;
+}
+
+.setPwd>.setPwd_main>.big_btn {
+	margin-top: 15px;
+}
+
+.setPwd>.setPwd_main>.big_btn button {
+	background-color: #fe5955;
+	color: #fff;
+}
+
+.signUp {
+	color: #666;
+}
+
+.signUp>header {
+	background-color: #fe5955;
+	color: #fff;
+}
+
+.signUp>header>button {
+	background-color: #f2413d;
+	color: #fff;
+}
+
+.signUp .signUp_method {
+	background-color: #5a5a5a;
+	color: #fff;
+	text-align: center;
+}
+
+.signUp .signUp_method div {
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+	color: #ccc;
+}
+
+.signUp .signUp_method .selected {
+	background-color: #3c3c3c;
+	color: #fff;
+}
+
+.signUp .byPhone_main {
+	padding: 16px 10px;
+	height: 300px;
+}
+
+.signUp .byPhone_main .step_1>label {
+	margin-bottom: 10px;
+	border: 1px solid #e5e5e5;
+}
+
+.signUp .byPhone_main .step_1>label>div {
+	height: 32px;
+	line-height: 32px;
+}
+
+.signUp .byPhone_main .step_1>label>div:nth-child(1) {
+	width: 67px;
+	border-right: 1px solid #e5e5e5;
+	text-align: center;
+}
+
+.signUp .byPhone_main .step_1>label>div:nth-child(2) {
+	padding: 0 10px;
+}
+
+.signUp .byPhone_main .step_1>label input {
+	width: 100%;
+	height: 32px;
+	border: none;
+	color: #666;
+}
+
+.signUp .byPhone_main .step_1>.big_btn {
+	margin-top: 15px;
+}
+
+.signUp .byPhone_main .step_1>.big_btn button {
+	background-color: #fe5955;
+	color: #fff;
+}
+
+.signUp .byPhone_main .step_1>.big_btn .disable {
+	background-color: #c9c9c9;
+}
+
+.signUp .byMail_main {
+	padding: 16px 10px;
+	height: 300px;
+}
+
+.signUp .byMail_main .step_1 {
+	position: relative;
+}
+
+.signUp .byMail_main .step_1>label {
+	border: 1px solid #e5e5e5;
+}
+
+.signUp .byMail_main .step_1>label:nth-child(3) {
+	border-top: none;
+}
+
+.signUp .byMail_main .step_1>label>div {
+	height: 32px;
+	line-height: 32px;
+}
+
+.signUp .byMail_main .step_1>label>div:nth-child(1) {
+	width: 47px;
+	text-align: right;
+}
+
+.signUp .byMail_main .step_1>label>div:nth-child(2) {
+	padding: 0 10px 0 3px;
+}
+
+.signUp .byMail_main .step_1>label input {
+	width: 100%;
+	height: 32px;
+	border: none;
+	color: #666;
+}
+
+.signUp .byMail_main .step_1 .mail_ps {
+	overflow-y: scroll;
+}
+
+.signUp .byMail_main .step_1>ul {
+	position: absolute;
+	top: 34px;
+	width: 100%;
+	background-color: #fff;
+}
+
+.signUp .byMail_main .step_1>ul>li {
+	height: 32px;
+	border: 1px solid #e5e5e5;
+	border-top: none;
+	line-height: 32px;
+	text-indent: 50px;
+}
+
+.signUp .byMail_main .step_1>ul>li>span {
+	color: #999;
+}
+
+.signUp .byMail_main .step_1 .verification_code {
+	margin-top: 10px;
+}
+
+.signUp .byMail_main .step_1 .waring_msg {
+	margin-top: 9px;
+}
+
+.signUp .byMail_main .step_1 .agreement {
+	margin-top: 10px;
+}
+
+.signUp .byMail_main .step_1 .agreement>span {
+	display: block;
+	height: 20px;
+	line-height: 20px;
+}
+
+.signUp .byMail_main .step_1>.big_btn {
+	margin-top: 15px;
+}
+
+.signUp .byMail_main .step_1>.big_btn button {
+	background-color: #fe5955;
+	color: #fff;
+}
+
+.signUp .byMail_main .step_1>.big_btn .disable {
+	background-color: #c9c9c9;
+}
+
+.signUp .byPhone_main .step_2 {
+	margin-top: -15px;
+}
+
+.signUp .byPhone_main .step_2>div>div {
+	height: 35px;
+	line-height: 35px;
+}
+
+.signUp .byPhone_main .step_2>div>div>span {
+	font-size: 14px;
+}
+
+.signUp .byPhone_main .step_2>div>a {
+	display: block;
+	width: 85px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+}
+
+.signUp .byPhone_main .step_2>label {
+	margin-bottom: 10px;
+}
+
+.signUp .byPhone_main .step_2>label>div {
+	height: 32px;
+	line-height: 32px;
+}
+
+.signUp .byPhone_main .step_2>label>div:nth-child(1) {
+	width: 67px;
+	border: 1px solid #e5e5e5;
+	border-right: none;
+	text-align: center;
+}
+
+.signUp .byPhone_main .step_2>label>div:nth-child(2) {
+	margin-right: 10px;
+	padding: 0 10px;
+	border: 1px solid #e5e5e5;
+}
+
+.signUp .byPhone_main .step_2>label>div:nth-child(3) {
+	line-height: 18px;
+	text-align: center;
+	color: #fff;
+	font-size: 10px;
+}
+
+.signUp .byPhone_main .step_2>label input {
+	width: 100%;
+	height: 32px;
+	border: none;
+	color: #666;
+}
+
+.signUp .byPhone_main .step_2>.big_btn button {
+	margin-top: 10px;
+	background-color: #fe5955;
+	color: #fff;
+}
+
+.signUp .byPhone_main .step_2>.big_btn .disable {
+	background-color: #c9c9c9;
+}
+
+._disable {
+	background-color: #c9c9c9;
+}
+
+._active {
+	background-color: #fe5955;
+}

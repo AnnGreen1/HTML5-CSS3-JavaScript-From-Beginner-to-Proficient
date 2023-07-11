@@ -1,0 +1,24 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+</head>
+
+<body>
+<script>
+
+var regex = /<([^>]+)>[\d\D]*<\/\1>/;
+var string1 = "<title>标题文本</title>";
+var string2 = "<p>段落文本</p>";
+var string3 = "<div>非法嵌套</p>";
+console.log( regex.test(string1) ); // true
+console.log( regex.test(string2) ); // true
+console.log( regex.test(string3) ); // false
+
+
+
+
+</script>
+</body>
+</html>

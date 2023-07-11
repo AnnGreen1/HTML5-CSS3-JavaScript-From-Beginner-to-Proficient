@@ -1,0 +1,335 @@
+.qui-page {
+	width: 640px;
+	-webkit-transition: -webkit-transform 0.4s;
+	transition: transform 0.4s
+}
+
+.qui-header {
+	width: 100%;
+	height: 44px;
+	overflow: hidden;
+	background-color: #2bab79
+}
+
+.qui-header-menu {
+	float: left;
+	width: 35%
+}
+
+.qui-icon {
+	display: inline-block;
+	height: 1em;
+	font-family: 'Icons' !important;
+	font-style: normal;
+	line-height: 1;
+	font-weight: normal;
+	text-decoration: inherit;
+	text-align: center;
+	speak: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased
+}
+
+.qui-header .qui-icon {
+	display: inline-block;
+	width: 44px;
+	height: 44px;
+	text-align: center;
+	font-size: 24px;
+	line-height: 44px;
+	color: #fff
+}
+
+.qui-header-logo {
+	float: left;
+	width: 30%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-align: center;
+	font-size: 20px;
+	line-height: 44px;
+	color: #fff
+}
+
+.qui-header-logo img {
+	display: block;
+	margin: 0 auto;
+}
+
+.qui-header p>a {
+	color: #fff
+}
+
+.container {
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+.qui-tabs {
+}
+
+.qui-tabContent>div {
+	display: none
+}
+
+.qui-tabContent>div.show {
+	display: block;
+}
+
+.plcRouteList {
+	border-bottom: 1px solid #e6e8ea;
+	background-color: #fff;
+	padding-left: 5px;
+}
+
+.plcRouteList li {
+	padding: 15px 5px 15px 0;
+	border-top: 1px solid #e6e8ea;
+}
+
+.plcRouteList>li:first-child {
+	border-top: none;
+}
+
+.plcRouteList a {
+	display: block;
+	position: relative;
+}
+
+.plcRouteList .pic {
+	display: block;
+	min-height: 150px
+}
+
+.plcRouteList .bottom {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 50px;
+	padding: 30px 0 0 60px;
+	color: #fff;
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.6));
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.6));
+	background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.6));
+	background-image: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.6));
+	background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.6))
+}
+
+.plcRouteList .bottom .face {
+	float: left;
+	margin-left: -50px;
+	width: 38px;
+	height: 38px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	overflow: hidden
+}
+
+.plcRouteList .bottom .face img {
+	display: block;
+	border-radius: 50%
+}
+
+.plcRouteList .bottom　.title {
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 22px
+}
+
+.plcRouteList .bottom .user {
+	font-size: 12px;
+	line-height: 14px;
+	margin-top: 5px
+}
+
+.plcRouteList .day {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 50px;
+	height: 50px;
+	background-color: rgba(43,171,121,0.8);
+	border-radius: 50%;
+	text-align: center;
+	font-size: 18px;
+	line-height: 50px;
+	color: #fff
+}
+
+.plcRouteList .infos {
+	margin-top: 7px
+}
+
+.plcRouteList .infos>div {
+	margin-bottom: 5px;
+	padding-left: 40px
+}
+
+.plcRouteList .infos em {
+	float: left;
+	margin-left: -40px;
+	font-size: 15px;
+	font-weight: bold
+}
+
+.plcRouteList .infos p {
+	max-height: 48px;
+	overflow: hidden
+}
+
+
+.qui-footerBasic {
+	width: 100%;
+	margin: 20px 0;
+	text-align: center;
+	font-size: 10px;
+	line-height: 20px
+}
+
+.qui-footerBasic .copyright {
+	color: #9ea3ab
+}
+
+.qui-footerBasic .switchStyle {
+	color: #9ea3ab
+}
+
+.qui-footerBasic .switchStyle span {
+	margin-left: 30px
+}
+
+.qui-footerBasic .switchStyle span:first-child {
+	margin-left: 0
+}
+
+.qui-footerBasic .switchStyle a {
+	color: #444
+}
+
+.qui-asides {
+	position: absolute;
+	left: -200px;
+	top: 0;
+	width: 200px
+}
+
+.qui-aside {
+	-webkit-transition: -webkit-transform 0.4s;
+	transition: transform 0.4s;
+	-webkit-overflow-scrolling: touch;
+	overflow-scrolling: touch;
+	position: fixed;
+	top: 0;
+	width: 200px;
+	bottom: 0;
+	overflow-y: scroll;
+	background-color: #2d3741
+}
+
+.qui-asideHead {
+	padding: 13px 10px 10px;
+}
+
+.qui-asideHead .signBtn {
+	text-align: right;
+	line-height: 18px;
+	color: #fff
+}
+
+.qui-asideHead .signBtn a {
+	color: #fff
+}
+
+.qui-asideNav {
+}
+
+.qui-asideNav li {
+	border-top: 1px solid #232d34;
+	background-color: #36424b
+}
+
+.qui-asideNav li:nth-child(even) {
+	background-color: #364049
+}
+
+.qui-asideNav a {
+	display: block;
+	padding-left: 15px;
+	font-size: 16px;
+	line-height: 44px;
+	color: #ced1d5
+}
+
+.qui-asideNav .qui-icon {
+	font-size: 18px;
+	margin-right: 19px;
+	color: #b6becb
+}
+
+@font-face {
+	font-family:'Icons';src:url('../images/qyer-icons.eot');
+	src:url('../images/qyer-icons.eot?#iefix') format('embedded-opentype'), url('../images/qyer-icons.woff') format('woff'), url('../images/qyer-icons.ttf') format('truetype'), url('../images/qyer-icons.svg#qyer-icons') format('svg')
+}
+
+.qui-icon._home:before {
+	content: "\f920"
+}
+
+.qui-icon._poiStrong:before {
+	content: "\f901"
+}
+
+.qui-icon._hotel:before {
+	content: "\f908"
+}
+
+.qui-icon._flight:before {
+	content: "\f909"
+}
+
+.qui-icon._reply_line:before {
+	content: "\f931"
+}
+
+.qui-icon._question:before {
+	content: "\f92d"
+}
+ 
+.qui-asideTool {
+	border-top: 9px solid #232d34;
+	background-color: #2d3741
+}
+
+.qui-asideTool li {
+	border-top: 1px solid #232d34
+}
+
+.qui-asideTool a {
+	display: block;
+	padding-left: 15px;
+	font-size: 16px;
+	line-height: 44px;
+	color: #ced1d5
+}
+
+.qui-asideTool .qui-icon {
+	font-size: 18px;
+	margin-right: 19px
+}
+
+.qui-asideTool ._reply_line {
+	color: #9fceda
+}
