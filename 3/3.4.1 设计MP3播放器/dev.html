@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="play">
+        <button onclick="paly">播放</button>
+        <button onclick="pause">暂停</button>
+    </div>
+    <div class="pause">
+
+    </div>
+    <div class="controls">
+
+    </div>
+    <div class="function">
+        <button onclick="reset()">重置列表</button>
+        <button onclick="rand()">随机打乱</button>
+    </div>
+    <div class="list">
+
+    </div>
+    <div class="audio">
+
+    </div>
+
+    <script>
+        var musicFiles = [{
+            name: "感恩的心 ",
+            author: "欧阳菲菲",
+            url: "music/感恩的心.mp3"
+        },
+        {
+            name: "北京北京",
+            author: "梁博",
+            url: "music/北京北京.mp3"
+        },
+        {
+            name: "离不开你",
+            author: "朱克",
+            url: "music/离不开你.mp3"
+        },
+        {
+            name: "最后一页",
+            author: "江语晨",
+            url: "music/最后一页.mp3"
+        }];
+
+        var temp = musicFiles;
+
+        function display() {
+            let list = document.getElementsByClassName('list')[0]
+            list.innerHTML = null
+            temp.forEach(item => {
+                let li = document.createElement('li')
+                li.innerHTML = item.author + '-' + item.name;
+                list.appendChild(li)
+            })
+        }
+        display()
+        function paly() {
+
+        }
+
+        function pause() {
+
+        }
+
+        function reset() {
+            // temp = musicFiles;
+            temp = []
+            temp.length = 0;
+            temp = musicFiles;
+            // temp.splice(0, temp.length, ...musicFiles)
+            console.log(temp);
+            display()
+        }
+
+        function rand() {
+            temp.sort(() => Math.random() - 0.5)
+            console.log(temp);
+            display()
+        }
+    </script>
+</body>
+
+</html>
