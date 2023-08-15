@@ -9,8 +9,8 @@
 
 <body>
     <div class="play">
-        <button onclick="paly">播放</button>
-        <button onclick="pause">暂停</button>
+        <button onclick="paly()">播放</button>
+        <button onclick="pause()">暂停</button>
     </div>
     <div class="pause">
 
@@ -26,7 +26,12 @@
 
     </div>
     <div class="audio">
-
+        <audio src="" controls="controls" id="audio">
+            <source id="source">
+        </audio>
+    </div>
+    <div class="input">
+        <input type="number" />
     </div>
 
     <script>
@@ -51,7 +56,10 @@
             url: "music/最后一页.mp3"
         }];
 
-        var temp = musicFiles;
+        var temp = [];
+        musicFiles.map(item => {
+            temp.push(item)
+        })
 
         function display() {
             let list = document.getElementsByClassName('list')[0]
@@ -64,18 +72,31 @@
         }
         display()
         function paly() {
+            let input = document.getElementsByTagName('input')[0].value;
+            console.log(input);
+            console.log(typeof input);
+            input = parseInt(input);
+            console.log(temp[input]);
 
+            let audio = document.getElementById('audio');
+            console.log(temp[input].url);
+            audio.setAttribute('src', temp[parseInt(input)].url);
+            audio.play()
         }
 
         function pause() {
-
+            let audio = document.getElementById('audio');
+            audio.pause()
         }
 
         function reset() {
             // temp = musicFiles;
             temp = []
             temp.length = 0;
-            temp = musicFiles;
+            console.log(musicFiles);
+            musicFiles.map(music => {
+                temp.push(music)
+            })
             // temp.splice(0, temp.length, ...musicFiles)
             console.log(temp);
             display()
