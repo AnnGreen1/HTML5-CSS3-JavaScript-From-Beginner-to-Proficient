@@ -4,6 +4,9 @@
 ✅第4章 HTML5列表和超链接
 ✅第5章 HTML5表格
 ✅第6章 HTML5表单
+✅第7章 CSS3基础
+✅第8章 CS3文本
+✅第9章 CSS3图像和背景
 ✅第15章 JavaScript基础
 ✅第16章 JavaScript基本运算
 ✅第17章 JavaScript程序结构
